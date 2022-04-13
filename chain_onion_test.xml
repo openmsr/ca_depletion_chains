@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<depletion_chain>
+
+
+
+
+
+  <nuclide name="Mo100" reactions="4">
+    <reaction type="(n,3n)" Q="-14217000.0" target="Mo98"/>
+    <reaction type="(n,gamma)" Q="5398200.0" target="Ru101"/>
+    <reaction type="(n,p)" Q="-5474400.0" target="Mo100"/>
+    <reaction type="(n,a)" Q="2410700.0" target="Mo97"/>
+
+
+
+
+
+  </nuclide>
+</depletion_chain>
