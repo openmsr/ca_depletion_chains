@@ -52,7 +52,7 @@
   <nuclide name="Li5" half_life="3.06868e-22" decay_modes="1" decay_energy="1965000.0" reactions="0">
     <decay type="alpha" target="H1" branching_ratio="1.0" />
   </nuclide>
-  <nuclide name="Li6" reactions="4">
+  <nuclide name="Li6" reactions="2">
     <reaction type="(n,gamma)" Q="7250600.0" target="Li7" />
     <reaction type="(n,p)" Q="-2727300.0" target="He6" />
     <reaction type="(n,t)" Q="4783474.6" target="He4" />
@@ -3218,284 +3218,321 @@
     <decay type="beta-,n,n" target="He4" branching_ratio="0.04848785" />
     <decay type="beta-,n,n,n" target="He4" branching_ratio="0.00022715" />
   </nuclide>
-  <nuclide name="Kr69" half_life="0.001" decay_modes="1" decay_energy="9344000.0" reactions="0">
+  <nuclide name="Kr69" half_life="0.032" decay_modes="1" decay_energy="9344000.0" reactions="0">
     <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
-  <nuclide name="Kr70" half_life="0.001" decay_modes="2" decay_energy="6563354.0" reactions="0">
+  <nuclide name="Kr70" half_life="0.052" decay_modes="2" decay_energy="6563354.0" reactions="0">
     <decay type="ec/beta+" target="He4" branching_ratio="0.987" />
     <decay type="ec/beta+,p" target="He4" branching_ratio="0.013" />
   </nuclide>
-  <nuclide name="Kr71" half_life="0.001" decay_modes="2" decay_energy="6736257.0" reactions="0">
+  <nuclide name="Kr71" half_life="0.1" decay_modes="2" decay_energy="6736257.0" reactions="0">
     <decay type="ec/beta+" target="He4" branching_ratio="0.948" />
     <decay type="ec/beta+,p" target="He4" branching_ratio="0.052" />
   </nuclide>
-  <nuclide name="Kr72" half_life="0.001" decay_modes="2" decay_energy="3095904.0" reactions="0">
+  <nuclide name="Kr72" half_life="17.1" decay_modes="2" decay_energy="3095904.0" reactions="0">
     <decay type="ec/beta+" target="He4" branching_ratio="0.9469742" />
     <decay type="ec/beta+" target="He4" branching_ratio="0.05302580000000001" />
   </nuclide>
-  <nuclide name="Kr73" half_life="0.001" decay_modes="1" decay_energy="4096164.0" reactions="0">
+  <nuclide name="Kr73" half_life="27.3" decay_modes="1" decay_energy="4096164.0" reactions="0">
     <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
-  <nuclide name="Kr74" half_life="0.001" decay_modes="1" decay_energy="1713812.2" reactions="0">
+  <nuclide name="Kr74" half_life="690.0" decay_modes="1" decay_energy="1713812.2" reactions="0">
     <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
-  <nuclide name="Kr75" half_life="0.001" decay_modes="1" decay_energy="2805723.0" reactions="0">
+  <nuclide name="Kr75" half_life="257.4" decay_modes="1" decay_energy="2805723.0" reactions="0">
     <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
-  <nuclide name="Kr76" half_life="0.001" decay_modes="1" decay_energy="424025.17" reactions="0">
+  <nuclide name="Kr76" half_life="53280.0" decay_modes="1" decay_energy="424025.17" reactions="0">
     <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
-  <nuclide name="Kr77" half_life="0.001" decay_modes="1" decay_energy="1721707.9" reactions="0">
+  <nuclide name="Kr77" half_life="4464.0" decay_modes="1" decay_energy="1721707.9" reactions="0">
     <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
-  <nuclide name="Kr78" reactions="0">
+  <nuclide name="Kr78" reactions="5">
+    <reaction type="(n,2n)" Q="-12081600.0" target="He4" />
+    <reaction type="(n,p)" Q="54921.51" target="He4" />
+    <reaction type="(n,a)" Q="3635692.0" target="He4" />
+    <reaction type="(n,gamma)" Q="8334326.0" target="He4" branching_ratio="0.9704" />
+    <reaction type="(n,gamma)" Q="8334326.0" target="He4" branching_ratio="0.0296" />
   </nuclide>
-  <nuclide name="Kr79" half_life="0.001" decay_modes="1" decay_energy="278567.37" reactions="0">
+  <nuclide name="Kr79" half_life="126144.0" decay_modes="1" decay_energy="278567.37" reactions="0">
     <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
-  <nuclide name="Kr79_m1" half_life="0.001" decay_modes="1" decay_energy="130197.68" reactions="0">
+  <nuclide name="Kr79_m1" half_life="50.0" decay_modes="1" decay_energy="130197.68" reactions="0">
     <decay type="IT" target="He4" branching_ratio="1.0" />
   </nuclide>
-  <nuclide name="Kr80" reactions="0">
+  <nuclide name="Kr80" reactions="5">
+    <reaction type="(n,2n)" Q="-11534100.0" target="He4" />
+    <reaction type="(n,p)" Q="-1223530.0" target="He4" />
+    <reaction type="(n,a)" Q="2363310.0" target="He4" />
+    <reaction type="(n,gamma)" Q="7881390.0" target="He4" branching_ratio="0.6031" />
+    <reaction type="(n,gamma)" Q="7881390.0" target="He4" branching_ratio="0.3969" />
   </nuclide>
-  <nuclide name="Kr81" half_life="0.001" decay_modes="1" decay_energy="12061.091" reactions="0">
+  <nuclide name="Kr81" half_life="7226690000000.0" decay_modes="1" decay_energy="12061.091" reactions="0">
     <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
-  <nuclide name="Kr81_m1" half_life="0.001" decay_modes="2" decay_energy="190395.33" reactions="0">
+  <nuclide name="Kr81_m1" half_life="13.1" decay_modes="2" decay_energy="190395.33" reactions="0">
     <decay type="ec/beta+" target="He4" branching_ratio="2.5e-05" />
     <decay type="IT" target="He4" branching_ratio="0.999975" />
   </nuclide>
-  <nuclide name="Kr82" reactions="0">
+  <nuclide name="Kr82" reactions="6">
+    <reaction type="(n,2n)" Q="-10960100.0" target="He4" />
+    <reaction type="(n,3n)" Q="-18846200.0" target="He4" />
+    <reaction type="(n,p)" Q="-2310530.0" target="He4" />
+    <reaction type="(n,a)" Q="983812.0" target="He4" />
+    <reaction type="(n,gamma)" Q="7465090.0" target="He4" branching_ratio="0.333" />
+    <reaction type="(n,gamma)" Q="7465090.0" target="He4" branching_ratio="0.667" />
   </nuclide>
-  <nuclide name="Kr83" reactions="0">
+  <nuclide name="Kr83" reactions="5">
+    <reaction type="(n,2n)" Q="-7462400.0" target="He4" />
+    <reaction type="(n,3n)" Q="-18428000.0" target="He4" />
+    <reaction type="(n,gamma)" Q="10520000.0" target="He4" />
+    <reaction type="(n,p)" Q="-190030.0" target="He4" />
+    <reaction type="(n,a)" Q="3426000.0" target="He4" />
   </nuclide>
-  <nuclide name="Kr83_m1" half_life="0.001" decay_modes="1" decay_energy="41286.643" reactions="0">
+  <nuclide name="Kr83_m1" half_life="6588.0" decay_modes="1" decay_energy="41286.643" reactions="0">
     <decay type="IT" target="He4" branching_ratio="1.0" />
   </nuclide>
-  <nuclide name="Kr84" reactions="0">
+  <nuclide name="Kr84" reactions="6">
+    <reaction type="(n,2n)" Q="-10523400.0" target="He4" />
+    <reaction type="(n,3n)" Q="-17993100.0" target="He4" />
+    <reaction type="(n,p)" Q="-3890430.0" target="He4" />
+    <reaction type="(n,a)" Q="-386683.0" target="He4" />
+    <reaction type="(n,gamma)" Q="7111390.0" target="He4" branching_ratio="0.1839" />
+    <reaction type="(n,gamma)" Q="7111390.0" target="He4" branching_ratio="0.8161" />
   </nuclide>
-  <nuclide name="Kr85" half_life="0.001" decay_modes="1" decay_energy="252834.105" reactions="0">
+  <nuclide name="Kr85" half_life="339433500.0" decay_modes="1" decay_energy="252834.105" reactions="5">
     <decay type="beta-" target="He4" branching_ratio="1.0" />
+    <reaction type="(n,2n)" Q="-7121000.0" target="He4" />
+    <reaction type="(n,3n)" Q="-17641000.0" target="He4" />
+    <reaction type="(n,gamma)" Q="9856000.0" target="He4" />
+    <reaction type="(n,p)" Q="0.0" target="He4" />
+    <reaction type="(n,a)" Q="0.0" target="He4" />
   </nuclide>
-  <nuclide name="Kr85_m1" half_life="0.001" decay_modes="2" decay_energy="411987.69999999995" reactions="0">
+  <nuclide name="Kr85_m1" half_life="16128.0" decay_modes="2" decay_energy="411987.69999999995" reactions="0">
     <decay type="beta-" target="He4" branching_ratio="0.786" />
     <decay type="IT" target="He4" branching_ratio="0.214" />
   </nuclide>
-  <nuclide name="Kr86" reactions="0">
+  <nuclide name="Kr86" reactions="5">
+    <reaction type="(n,2n)" Q="-9867290.0" target="He4" />
+    <reaction type="(n,3n)" Q="-16983300.0" target="He4" />
+    <reaction type="(n,gamma)" Q="5515390.0" target="He4" />
+    <reaction type="(n,p)" Q="-6520520.0" target="He4" />
+    <reaction type="(n,a)" Q="-2198780.0" target="He4" />
   </nuclide>
-  <nuclide name="Kr87" half_life="0.001" decay_modes="1" decay_energy="2123020.7" reactions="0">
+  <nuclide name="Kr87" half_life="4578.0" decay_modes="1" decay_energy="2123020.7" reactions="0">
     <decay type="beta-" target="He4" branching_ratio="1.0" />
   </nuclide>
-  <nuclide name="Kr88" half_life="0.001" decay_modes="1" decay_energy="2322902.4" reactions="0">
+  <nuclide name="Kr88" half_life="10224.0" decay_modes="1" decay_energy="2322902.4" reactions="0">
     <decay type="beta-" target="He4" branching_ratio="1.0" />
   </nuclide>
-  <nuclide name="Kr89" half_life="0.001" decay_modes="1" decay_energy="3398836.0" reactions="0">
+  <nuclide name="Kr89" half_life="189.0" decay_modes="1" decay_energy="3398836.0" reactions="0">
     <decay type="beta-" target="He4" branching_ratio="1.0" />
   </nuclide>
-  <nuclide name="Kr90" half_life="0.001" decay_modes="2" decay_energy="2688111.0" reactions="0">
+  <nuclide name="Kr90" half_life="32.32" decay_modes="2" decay_energy="2688111.0" reactions="0">
     <decay type="beta-" target="He4" branching_ratio="0.8699402" />
     <decay type="beta-" target="He4" branching_ratio="0.13005979999999995" />
   </nuclide>
-  <nuclide name="Kr91" half_life="0.001" decay_modes="1" decay_energy="4000654.0" reactions="0">
+  <nuclide name="Kr91" half_life="8.57" decay_modes="1" decay_energy="4000654.0" reactions="0">
     <decay type="beta-" target="He4" branching_ratio="1.0" />
   </nuclide>
-  <nuclide name="Kr92" half_life="0.001" decay_modes="2" decay_energy="3422103.22093" reactions="0">
+  <nuclide name="Kr92" half_life="1.84" decay_modes="2" decay_energy="3422103.22093" reactions="0">
     <decay type="beta-" target="He4" branching_ratio="0.999668" />
     <decay type="beta-,n" target="He4" branching_ratio="0.000332" />
   </nuclide>
-  <nuclide name="Kr93" half_life="0.001" decay_modes="2" decay_energy="5101912.904" reactions="0">
+  <nuclide name="Kr93" half_life="1.286" decay_modes="2" decay_energy="5101912.904" reactions="0">
     <decay type="beta-" target="He4" branching_ratio="0.9805" />
     <decay type="beta-,n" target="He4" branching_ratio="0.0195" />
   </nuclide>
-  <nuclide name="Kr94" half_life="0.001" decay_modes="2" decay_energy="3846829.299" reactions="0">
+  <nuclide name="Kr94" half_life="0.212" decay_modes="2" decay_energy="3846829.299" reactions="0">
     <decay type="beta-" target="He4" branching_ratio="0.9889" />
     <decay type="beta-,n" target="He4" branching_ratio="0.0111" />
   </nuclide>
-  <nuclide name="Kr95" half_life="0.001" decay_modes="3" decay_energy="6198335.29" reactions="0">
+  <nuclide name="Kr95" half_life="0.114" decay_modes="3" decay_energy="6198335.29" reactions="0">
     <decay type="beta-" target="He4" branching_ratio="0.963552" />
     <decay type="beta-,n" target="He4" branching_ratio="0.036448" />
     <decay type="beta-,n,n" target="He4" branching_ratio="0.0" />
   </nuclide>
-  <nuclide name="Kr96" half_life="0.001" decay_modes="2" decay_energy="4498441.91" reactions="0">
+  <nuclide name="Kr96" half_life="0.08" decay_modes="2" decay_energy="4498441.91" reactions="0">
     <decay type="beta-" target="He4" branching_ratio="0.963" />
     <decay type="beta-,n" target="He4" branching_ratio="0.037" />
   </nuclide>
-  <nuclide name="Kr97" half_life="0.001" decay_modes="3" decay_energy="6142375.42" reactions="0">
+  <nuclide name="Kr97" half_life="0.063" decay_modes="3" decay_energy="6142375.42" reactions="0">
     <decay type="beta-" target="He4" branching_ratio="0.92626" />
     <decay type="beta-,n" target="He4" branching_ratio="0.07365147" />
     <decay type="beta-,n,n" target="He4" branching_ratio="8.852999999997557e-05" />
   </nuclide>
-  <nuclide name="Kr98" half_life="0.001" decay_modes="3" decay_energy="5204008.57" reactions="0">
+  <nuclide name="Kr98" half_life="0.046" decay_modes="3" decay_energy="5204008.57" reactions="0">
     <decay type="beta-" target="He4" branching_ratio="0.87843" />
     <decay type="beta-,n" target="He4" branching_ratio="0.1215693" />
     <decay type="beta-,n,n" target="He4" branching_ratio="6.999999999646178e-07" />
   </nuclide>
-  <nuclide name="Kr99" half_life="0.001" decay_modes="2" decay_energy="7683764.43" reactions="0">
+  <nuclide name="Kr99" half_life="0.027" decay_modes="2" decay_energy="7683764.43" reactions="0">
     <decay type="beta-" target="He4" branching_ratio="0.89" />
     <decay type="beta-,n" target="He4" branching_ratio="0.11" />
   </nuclide>
-  <nuclide name="Kr100" half_life="0.001" decay_modes="3" decay_energy="6223651.8" reactions="0">
+  <nuclide name="Kr100" half_life="0.007" decay_modes="3" decay_energy="6223651.8" reactions="0">
     <decay type="beta-" target="He4" branching_ratio="0.86237" />
     <decay type="beta-,n" target="He4" branching_ratio="0.1373661" />
     <decay type="beta-,n,n" target="He4" branching_ratio="0.0002638999999999836" />
   </nuclide>
   <nuclide name="Rb71" half_life="1e-09" decay_modes="1" decay_energy="2000000.0" reactions="0">
-    <decay type="p" target="Kr70" branching_ratio="1.0" />
+    <decay type="p" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Rb72" half_life="1.2e-06" decay_modes="1" decay_energy="922000.0" reactions="0">
-    <decay type="p" target="Kr71" branching_ratio="1.0" />
+    <decay type="p" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Rb73" half_life="3e-08" decay_modes="1" decay_energy="570000.0" reactions="0">
-    <decay type="p" target="Kr72" branching_ratio="1.0" />
+    <decay type="p" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Rb74" half_life="0.064776" decay_modes="1" decay_energy="5474397.0" reactions="0">
-    <decay type="ec/beta+" target="Kr74" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Rb75" half_life="19.0" decay_modes="1" decay_energy="4736648.0" reactions="0">
-    <decay type="ec/beta+" target="Kr75" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Rb76" half_life="36.5" decay_modes="1" decay_energy="5701970.0" reactions="0">
-    <decay type="ec/beta+" target="Kr76" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Rb77" half_life="226.2" decay_modes="1" decay_energy="3230269.0" reactions="0">
-    <decay type="ec/beta+" target="Kr77" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Rb78" half_life="1059.6" decay_modes="1" decay_energy="5217494.0" reactions="0">
-    <decay type="ec/beta+" target="Kr78" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Rb78_m1" half_life="344.4" decay_modes="2" decay_energy="4794061.0" reactions="0">
-    <decay type="ec/beta+" target="Kr78" branching_ratio="0.91" />
-    <decay type="IT" target="Rb78" branching_ratio="0.09" />
+    <decay type="ec/beta+" target="He4" branching_ratio="0.91" />
+    <decay type="IT" target="He4" branching_ratio="0.09" />
   </nuclide>
   <nuclide name="Rb79" half_life="1374.0" decay_modes="1" decay_energy="2255207.8" reactions="0">
-    <decay type="ec/beta+" target="Kr79" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Rb80" half_life="34.0" decay_modes="1" decay_energy="3223969.0" reactions="0">
-    <decay type="ec/beta+" target="Kr80" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Rb81" half_life="16459.2" decay_modes="2" decay_energy="631213.8" reactions="0">
-    <decay type="ec/beta+" target="Kr81" branching_ratio="0.04327695" />
-    <decay type="ec/beta+" target="Kr81_m1" branching_ratio="0.95672305" />
+    <decay type="ec/beta+" target="He4" branching_ratio="0.04327695" />
+    <decay type="ec/beta+" target="He4" branching_ratio="0.95672305" />
   </nuclide>
   <nuclide name="Rb81_m1" half_life="1830.0" decay_modes="3" decay_energy="109149.97" reactions="0">
-    <decay type="ec/beta+" target="Kr81" branching_ratio="0.02379725" />
-    <decay type="ec/beta+" target="Kr81_m1" branching_ratio="0.0002027525" />
-    <decay type="IT" target="Rb81" branching_ratio="0.9759999975" />
+    <decay type="ec/beta+" target="He4" branching_ratio="0.02379725" />
+    <decay type="ec/beta+" target="He4" branching_ratio="0.0002027525" />
+    <decay type="IT" target="He4" branching_ratio="0.9759999975" />
   </nuclide>
   <nuclide name="Rb82" half_life="75.45" decay_modes="1" decay_energy="2520421.0" reactions="0">
-    <decay type="ec/beta+" target="Kr82" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Rb82_m1" half_life="23299.2" decay_modes="1" decay_energy="2997063.47" reactions="0">
-    <decay type="ec/beta+" target="Kr82" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Rb83" half_life="7447680.0" decay_modes="2" decay_energy="499766.858" reactions="0">
-    <decay type="ec/beta+" target="Kr83" branching_ratio="0.2573625" />
-    <decay type="ec/beta+" target="Kr83_m1" branching_ratio="0.7426375" />
+    <decay type="ec/beta+" target="He4" branching_ratio="0.2573625" />
+    <decay type="ec/beta+" target="He4" branching_ratio="0.7426375" />
   </nuclide>
   <nuclide name="Rb84" half_life="2835648.0" decay_modes="2" decay_energy="1052178.7" reactions="0">
-    <decay type="ec/beta+" target="Kr84" branching_ratio="0.961" />
-    <decay type="beta-" target="Sr84" branching_ratio="0.039" />
+    <decay type="ec/beta+" target="He4" branching_ratio="0.961" />
+    <decay type="beta-" target="He4" branching_ratio="0.039" />
   </nuclide>
   <nuclide name="Rb84_m1" half_life="1215.6" decay_modes="1" decay_energy="450904.85" reactions="0">
-    <decay type="IT" target="Rb84" branching_ratio="1.0" />
+    <decay type="IT" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Rb85" reactions="6">
-    <reaction type="(n,2n)" Q="-10482900.0" target="Rb84" />
-    <reaction type="(n,3n)" Q="-19324000.0" target="Rb83" />
-    <reaction type="(n,p)" Q="95460.0" target="Kr85" />
-    <reaction type="(n,a)" Q="993416.0" target="Br82" />
-    <reaction type="(n,gamma)" Q="8650290.0" target="Rb86" branching_ratio="0.8791" />
-    <reaction type="(n,gamma)" Q="8650290.0" target="Rb86_m1" branching_ratio="0.1209" />
+    <reaction type="(n,2n)" Q="-10482900.0" target="He4" />
+    <reaction type="(n,3n)" Q="-19324000.0" target="He4" />
+    <reaction type="(n,p)" Q="95460.0" target="He4" />
+    <reaction type="(n,a)" Q="993416.0" target="He4" />
+    <reaction type="(n,gamma)" Q="8650290.0" target="He4" branching_ratio="0.8791" />
+    <reaction type="(n,gamma)" Q="8650290.0" target="He4" branching_ratio="0.1209" />
   </nuclide>
   <nuclide name="Rb86" half_life="1609718.0" decay_modes="2" decay_energy="761991.19" reactions="5">
-    <decay type="beta-" target="Sr86" branching_ratio="0.999948" />
-    <decay type="ec/beta+" target="Kr86" branching_ratio="5.2e-05" />
-    <reaction type="(n,2n)" Q="-8650000.0" target="Rb85" />
-    <reaction type="(n,3n)" Q="-19139000.0" target="Rb84" />
-    <reaction type="(n,gamma)" Q="9919000.0" target="Rb87" />
-    <reaction type="(n,p)" Q="0.0" target="Kr86" />
-    <reaction type="(n,a)" Q="0.0" target="Br83" />
+    <decay type="beta-" target="He4" branching_ratio="0.999948" />
+    <decay type="ec/beta+" target="He4" branching_ratio="5.2e-05" />
+    <reaction type="(n,2n)" Q="-8650000.0" target="He4" />
+    <reaction type="(n,3n)" Q="-19139000.0" target="He4" />
+    <reaction type="(n,gamma)" Q="9919000.0" target="He4" />
+    <reaction type="(n,p)" Q="0.0" target="He4" />
+    <reaction type="(n,a)" Q="0.0" target="He4" />
   </nuclide>
   <nuclide name="Rb86_m1" half_life="61.02" decay_modes="1" decay_energy="556082.42" reactions="0">
-    <decay type="IT" target="Rb86" branching_ratio="1.0" />
+    <decay type="IT" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Rb87" half_life="1.51792e+18" decay_modes="1" decay_energy="81700.0" reactions="5">
-    <decay type="beta-" target="Sr87" branching_ratio="1.0" />
-    <reaction type="(n,2n)" Q="-9934090.0" target="Rb86" />
-    <reaction type="(n,3n)" Q="-18589100.0" target="Rb85" />
-    <reaction type="(n,gamma)" Q="6077690.0" target="Rb88" />
-    <reaction type="(n,p)" Q="-3106240.0" target="Kr87" />
-    <reaction type="(n,a)" Q="-1182480.0" target="Br84" />
+    <decay type="beta-" target="He4" branching_ratio="1.0" />
+    <reaction type="(n,2n)" Q="-9934090.0" target="He4" />
+    <reaction type="(n,3n)" Q="-18589100.0" target="He4" />
+    <reaction type="(n,gamma)" Q="6077690.0" target="He4" />
+    <reaction type="(n,p)" Q="-3106240.0" target="He4" />
+    <reaction type="(n,a)" Q="-1182480.0" target="He4" />
   </nuclide>
   <nuclide name="Rb88" half_life="1066.38" decay_modes="1" decay_energy="2728562.3" reactions="0">
-    <decay type="beta-" target="Sr88" branching_ratio="1.0" />
+    <decay type="beta-" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Rb89" half_life="909.0" decay_modes="1" decay_energy="3205465.7" reactions="0">
-    <decay type="beta-" target="Sr89" branching_ratio="1.0" />
+    <decay type="beta-" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Rb90" half_life="158.0" decay_modes="1" decay_energy="4176952.0" reactions="0">
-    <decay type="beta-" target="Sr90" branching_ratio="1.0" />
+    <decay type="beta-" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Rb90_m1" half_life="258.0" decay_modes="2" decay_energy="4980956.0" reactions="0">
-    <decay type="beta-" target="Sr90" branching_ratio="0.974" />
-    <decay type="IT" target="Rb90" branching_ratio="0.026" />
+    <decay type="beta-" target="He4" branching_ratio="0.974" />
+    <decay type="IT" target="He4" branching_ratio="0.026" />
   </nuclide>
   <nuclide name="Rb91" half_life="58.4" decay_modes="2" decay_energy="4077811.005643034" reactions="0">
-    <decay type="beta-" target="Sr91" branching_ratio="0.9999998" />
-    <decay type="beta-,n" target="Sr90" branching_ratio="2.0000000000575113e-07" />
+    <decay type="beta-" target="He4" branching_ratio="0.9999998" />
+    <decay type="beta-,n" target="He4" branching_ratio="2.0000000000575113e-07" />
   </nuclide>
   <nuclide name="Rb92" half_life="4.492" decay_modes="2" decay_energy="5014056.40733" reactions="0">
-    <decay type="beta-" target="Sr92" branching_ratio="0.999893" />
-    <decay type="beta-,n" target="Sr91" branching_ratio="0.000107" />
+    <decay type="beta-" target="He4" branching_ratio="0.999893" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.000107" />
   </nuclide>
   <nuclide name="Rb93" half_life="5.84" decay_modes="2" decay_energy="4674610.563" reactions="0">
-    <decay type="beta-" target="Sr93" branching_ratio="0.9861" />
-    <decay type="beta-,n" target="Sr92" branching_ratio="0.0139" />
+    <decay type="beta-" target="He4" branching_ratio="0.9861" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.0139" />
   </nuclide>
   <nuclide name="Rb94" half_life="2.702" decay_modes="2" decay_energy="3960553.0" reactions="0">
-    <decay type="beta-" target="Sr94" branching_ratio="0.895" />
-    <decay type="beta-,n" target="Sr93" branching_ratio="0.105" />
+    <decay type="beta-" target="He4" branching_ratio="0.895" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.105" />
   </nuclide>
   <nuclide name="Rb95" half_life="0.3777" decay_modes="2" decay_energy="4507606.23" reactions="0">
-    <decay type="beta-" target="Sr95" branching_ratio="0.913" />
-    <decay type="beta-,n" target="Sr94" branching_ratio="0.087" />
+    <decay type="beta-" target="He4" branching_ratio="0.913" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.087" />
   </nuclide>
   <nuclide name="Rb96" half_life="0.203" decay_modes="2" decay_energy="5979821.44" reactions="0">
-    <decay type="beta-" target="Sr96" branching_ratio="0.867" />
-    <decay type="beta-,n" target="Sr95" branching_ratio="0.133" />
+    <decay type="beta-" target="He4" branching_ratio="0.867" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.133" />
   </nuclide>
   <nuclide name="Rb97" half_life="0.1691" decay_modes="2" decay_energy="4005052.3" reactions="0">
-    <decay type="beta-" target="Sr97" branching_ratio="0.745" />
-    <decay type="beta-,n" target="Sr96" branching_ratio="0.255" />
+    <decay type="beta-" target="He4" branching_ratio="0.745" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.255" />
   </nuclide>
   <nuclide name="Rb98" half_life="0.114" decay_modes="3" decay_energy="5754959.44" reactions="0">
-    <decay type="beta-" target="Sr98" branching_ratio="0.86149" />
-    <decay type="beta-,n" target="Sr97" branching_ratio="0.138" />
-    <decay type="beta-,n,n" target="Sr96" branching_ratio="0.00051" />
+    <decay type="beta-" target="He4" branching_ratio="0.86149" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.138" />
+    <decay type="beta-,n,n" target="He4" branching_ratio="0.00051" />
   </nuclide>
   <nuclide name="Rb98_m1" half_life="0.096" decay_modes="1" decay_energy="8450490.0" reactions="0">
-    <decay type="beta-" target="Sr98" branching_ratio="1.0" />
+    <decay type="beta-" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Rb99" half_life="0.054" decay_modes="3" decay_energy="5444079.9" reactions="0">
-    <decay type="beta-" target="Sr99" branching_ratio="0.72312" />
-    <decay type="beta-,n" target="Sr98" branching_ratio="0.2768768" />
-    <decay type="beta-,n,n" target="Sr97" branching_ratio="3.200000000092018e-06" />
+    <decay type="beta-" target="He4" branching_ratio="0.72312" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.2768768" />
+    <decay type="beta-,n,n" target="He4" branching_ratio="3.200000000092018e-06" />
   </nuclide>
   <nuclide name="Rb100" half_life="0.051" decay_modes="3" decay_energy="6922682.8" reactions="0">
-    <decay type="beta-" target="Sr100" branching_ratio="0.676" />
-    <decay type="beta-,n" target="Sr99" branching_ratio="0.3191642" />
-    <decay type="beta-,n,n" target="Sr98" branching_ratio="0.0048358" />
+    <decay type="beta-" target="He4" branching_ratio="0.676" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.3191642" />
+    <decay type="beta-,n,n" target="He4" branching_ratio="0.0048358" />
   </nuclide>
   <nuclide name="Rb101" half_life="0.032" decay_modes="3" decay_energy="6233440.6" reactions="0">
-    <decay type="beta-" target="Sr101" branching_ratio="0.67726" />
-    <decay type="beta-,n" target="Sr100" branching_ratio="0.321798" />
-    <decay type="beta-,n,n" target="Sr99" branching_ratio="0.0009419999999999984" />
+    <decay type="beta-" target="He4" branching_ratio="0.67726" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.321798" />
+    <decay type="beta-,n,n" target="He4" branching_ratio="0.0009419999999999984" />
   </nuclide>
   <nuclide name="Rb102" half_life="0.037" decay_modes="4" decay_energy="8154938.4" reactions="0">
-    <decay type="beta-" target="Sr102" branching_ratio="0.76923" />
-    <decay type="beta-,n" target="Sr101" branching_ratio="0.219911" />
-    <decay type="beta-,n,n" target="Sr100" branching_ratio="0.010859" />
-    <decay type="beta-,n,n,n" target="Sr99" branching_ratio="1.1102230246251565e-16" />
+    <decay type="beta-" target="He4" branching_ratio="0.76923" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.219911" />
+    <decay type="beta-,n,n" target="He4" branching_ratio="0.010859" />
+    <decay type="beta-,n,n,n" target="He4" branching_ratio="1.1102230246251565e-16" />
   </nuclide>
   <nuclide name="Sr73" half_life="0.025" decay_modes="1" decay_energy="9420666.0" reactions="0">
     <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
@@ -3653,204 +3690,204 @@
     <decay type="beta-,n,n" target="He4" branching_ratio="0.0031206" />
   </nuclide>
   <nuclide name="Y76" half_life="2e-07" decay_modes="2" decay_energy="5580166.0" reactions="0">
-    <decay type="ec/beta+" target="Sr76" branching_ratio="0.5" />
-    <decay type="p" target="Sr75" branching_ratio="0.5" />
+    <decay type="ec/beta+" target="He4" branching_ratio="0.5" />
+    <decay type="p" target="He4" branching_ratio="0.5" />
   </nuclide>
   <nuclide name="Y77" half_life="0.062" decay_modes="1" decay_energy="7350000.0" reactions="0">
-    <decay type="ec/beta+" target="Sr77" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Y78" half_life="0.05" decay_modes="1" decay_energy="7098000.0" reactions="0">
-    <decay type="ec/beta+" target="Sr78" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Y78_m1" half_life="5.7" decay_modes="1" decay_energy="7098000.0" reactions="0">
-    <decay type="ec/beta+" target="Sr78" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Y79" half_life="14.8" decay_modes="1" decay_energy="4746666.0" reactions="0">
-    <decay type="ec/beta+" target="Sr79" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Y80" half_life="30.1" decay_modes="1" decay_energy="5716181.0" reactions="0">
-    <decay type="ec/beta+" target="Sr80" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Y80_m1" half_life="4.8" decay_modes="2" decay_energy="1374711.8" reactions="0">
-    <decay type="ec/beta+" target="Sr80" branching_ratio="0.19" />
-    <decay type="IT" target="Y80" branching_ratio="0.81" />
+    <decay type="ec/beta+" target="He4" branching_ratio="0.19" />
+    <decay type="IT" target="He4" branching_ratio="0.81" />
   </nuclide>
   <nuclide name="Y81" half_life="70.4" decay_modes="1" decay_energy="3290898.0" reactions="0">
-    <decay type="ec/beta+" target="Sr81" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Y82" half_life="8.3" decay_modes="1" decay_energy="5297144.0" reactions="0">
-    <decay type="ec/beta+" target="Sr82" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Y83" half_life="424.8" decay_modes="2" decay_energy="2605498.0" reactions="0">
-    <decay type="ec/beta+" target="Sr83" branching_ratio="0.9764185" />
-    <decay type="ec/beta+" target="Sr83_m1" branching_ratio="0.023581500000000033" />
+    <decay type="ec/beta+" target="He4" branching_ratio="0.9764185" />
+    <decay type="ec/beta+" target="He4" branching_ratio="0.023581500000000033" />
   </nuclide>
   <nuclide name="Y83_m1" half_life="171.0" decay_modes="2" decay_energy="1481950.2999999998" reactions="0">
-    <decay type="ec/beta+" target="Sr83_m1" branching_ratio="0.6" />
-    <decay type="IT" target="Y83" branching_ratio="0.4" />
+    <decay type="ec/beta+" target="He4" branching_ratio="0.6" />
+    <decay type="IT" target="He4" branching_ratio="0.4" />
   </nuclide>
   <nuclide name="Y84" half_life="2370.0" decay_modes="1" decay_energy="5117786.9" reactions="0">
-    <decay type="ec/beta+" target="Sr84" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Y84_m1" half_life="4.6" decay_modes="1" decay_energy="3810581.0" reactions="0">
-    <decay type="ec/beta+" target="Sr84" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Y85" half_life="9648.0" decay_modes="1" decay_energy="2174084.0" reactions="0">
-    <decay type="ec/beta+" target="Sr85" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Y85_m1" half_life="17496.0" decay_modes="2" decay_energy="1850588.9" reactions="0">
-    <decay type="ec/beta+" target="Sr85" branching_ratio="0.97486" />
-    <decay type="ec/beta+" target="Sr85_m1" branching_ratio="0.02514000000000005" />
+    <decay type="ec/beta+" target="He4" branching_ratio="0.97486" />
+    <decay type="ec/beta+" target="He4" branching_ratio="0.02514000000000005" />
   </nuclide>
   <nuclide name="Y86" half_life="53064.0" decay_modes="1" decay_energy="3796119.0" reactions="0">
-    <decay type="ec/beta+" target="Sr86" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Y86_m1" half_life="2880.0" decay_modes="2" decay_energy="243758.84" reactions="0">
-    <decay type="ec/beta+" target="Sr86" branching_ratio="0.0069" />
-    <decay type="IT" target="Y86" branching_ratio="0.9931" />
+    <decay type="ec/beta+" target="He4" branching_ratio="0.0069" />
+    <decay type="IT" target="He4" branching_ratio="0.9931" />
   </nuclide>
   <nuclide name="Y87" half_life="287280.0" decay_modes="1" decay_energy="453069.373" reactions="0">
-    <decay type="ec/beta+" target="Sr87_m1" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Y87_m1" half_life="48132.0" decay_modes="2" decay_energy="386650.01" reactions="0">
-    <decay type="ec/beta+" target="Sr87" branching_ratio="0.0157" />
-    <decay type="IT" target="Y87" branching_ratio="0.9843" />
+    <decay type="ec/beta+" target="He4" branching_ratio="0.0157" />
+    <decay type="IT" target="He4" branching_ratio="0.9843" />
   </nuclide>
   <nuclide name="Y88" half_life="9212486.0" decay_modes="1" decay_energy="2701677.42" reactions="0">
-    <decay type="ec/beta+" target="Sr88" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Y88_m1" half_life="0.000301" decay_modes="1" decay_energy="392864.24" reactions="0">
-    <decay type="IT" target="Y88" branching_ratio="1.0" />
+    <decay type="IT" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Y88_m2" half_life="0.01397" decay_modes="1" decay_energy="674548.95" reactions="0">
-    <decay type="IT" target="Y88" branching_ratio="1.0" />
+    <decay type="IT" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Y89" reactions="5">
-    <reaction type="(n,2n)" Q="-11476000.0" target="Y88" />
-    <reaction type="(n,p)" Q="-713000.0" target="Sr89" />
-    <reaction type="(n,a)" Q="691000.0" target="Rb86" />
-    <reaction type="(n,gamma)" Q="6857000.0" target="Y90" branching_ratio="0.9979" />
-    <reaction type="(n,gamma)" Q="6857000.0" target="Y90_m1" branching_ratio="0.0021" />
+    <reaction type="(n,2n)" Q="-11476000.0" target="He4" />
+    <reaction type="(n,p)" Q="-713000.0" target="He4" />
+    <reaction type="(n,a)" Q="691000.0" target="He4" />
+    <reaction type="(n,gamma)" Q="6857000.0" target="He4" branching_ratio="0.9979" />
+    <reaction type="(n,gamma)" Q="6857000.0" target="He4" branching_ratio="0.0021" />
   </nuclide>
   <nuclide name="Y89_m1" half_life="15.663" decay_modes="1" decay_energy="909020.9210000001" reactions="0">
-    <decay type="IT" target="Y89" branching_ratio="1.0" />
+    <decay type="IT" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Y90" half_life="230400.0" decay_modes="1" decay_energy="933015.6857674001" reactions="6">
-    <decay type="beta-" target="Zr90" branching_ratio="1.0" />
-    <reaction type="(n,2n)" Q="-6857000.0" target="Y89" />
-    <reaction type="(n,3n)" Q="-18333000.0" target="Y88" />
-    <reaction type="(n,p)" Q="236000.0" target="Sr90" />
-    <reaction type="(n,a)" Q="3753000.0" target="Rb87" />
-    <reaction type="(n,gamma)" Q="7929000.0" target="Y91" branching_ratio="0.7496" />
-    <reaction type="(n,gamma)" Q="7929000.0" target="Y91_m1" branching_ratio="0.2504" />
+    <decay type="beta-" target="He4" branching_ratio="1.0" />
+    <reaction type="(n,2n)" Q="-6857000.0" target="He4" />
+    <reaction type="(n,3n)" Q="-18333000.0" target="He4" />
+    <reaction type="(n,p)" Q="236000.0" target="He4" />
+    <reaction type="(n,a)" Q="3753000.0" target="He4" />
+    <reaction type="(n,gamma)" Q="7929000.0" target="He4" branching_ratio="0.7496" />
+    <reaction type="(n,gamma)" Q="7929000.0" target="He4" branching_ratio="0.2504" />
   </nuclide>
   <nuclide name="Y90_m1" half_life="11484.0" decay_modes="2" decay_energy="680003.77" reactions="0">
-    <decay type="IT" target="Y90" branching_ratio="0.999982" />
-    <decay type="beta-" target="Zr90_m1" branching_ratio="1.8e-05" />
+    <decay type="IT" target="He4" branching_ratio="0.999982" />
+    <decay type="beta-" target="He4" branching_ratio="1.8e-05" />
   </nuclide>
   <nuclide name="Y91" half_life="5055264.0" decay_modes="1" decay_energy="606173.414" reactions="5">
-    <decay type="beta-" target="Zr91" branching_ratio="1.0" />
-    <reaction type="(n,2n)" Q="-7944890.0" target="Y90" />
-    <reaction type="(n,3n)" Q="-14806400.0" target="Y89" />
-    <reaction type="(n,gamma)" Q="6543890.0" target="Y92" />
-    <reaction type="(n,p)" Q="-1901030.0" target="Sr91" />
-    <reaction type="(n,a)" Q="1906710.0" target="Rb88" />
+    <decay type="beta-" target="He4" branching_ratio="1.0" />
+    <reaction type="(n,2n)" Q="-7944890.0" target="He4" />
+    <reaction type="(n,3n)" Q="-14806400.0" target="He4" />
+    <reaction type="(n,gamma)" Q="6543890.0" target="He4" />
+    <reaction type="(n,p)" Q="-1901030.0" target="He4" />
+    <reaction type="(n,a)" Q="1906710.0" target="He4" />
   </nuclide>
   <nuclide name="Y91_m1" half_life="2982.6" decay_modes="1" decay_energy="555544.8" reactions="0">
-    <decay type="IT" target="Y91" branching_ratio="1.0" />
+    <decay type="IT" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Y92" half_life="12744.0" decay_modes="1" decay_energy="1701652.9" reactions="0">
-    <decay type="beta-" target="Zr92" branching_ratio="1.0" />
+    <decay type="beta-" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Y93" half_life="36648.0" decay_modes="1" decay_energy="1267983.51" reactions="0">
-    <decay type="beta-" target="Zr93" branching_ratio="1.0" />
+    <decay type="beta-" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Y93_m1" half_life="0.82" decay_modes="1" decay_energy="758654.63" reactions="0">
-    <decay type="IT" target="Y93" branching_ratio="1.0" />
+    <decay type="IT" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Y94" half_life="1122.0" decay_modes="1" decay_energy="2587308.8" reactions="0">
-    <decay type="beta-" target="Zr94" branching_ratio="1.0" />
+    <decay type="beta-" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Y95" half_life="618.0" decay_modes="1" decay_energy="2605544.0" reactions="0">
-    <decay type="beta-" target="Zr95" branching_ratio="1.0" />
+    <decay type="beta-" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Y96" half_life="5.34" decay_modes="1" decay_energy="3285861.87" reactions="0">
-    <decay type="beta-" target="Zr96" branching_ratio="1.0" />
+    <decay type="beta-" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Y96_m1" half_life="9.6" decay_modes="1" decay_energy="5938335.0" reactions="0">
-    <decay type="beta-" target="Zr96" branching_ratio="1.0" />
+    <decay type="beta-" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Y97" half_life="3.75" decay_modes="2" decay_energy="3968040.4347" reactions="0">
-    <decay type="beta-" target="Zr97" branching_ratio="0.99945" />
-    <decay type="beta-,n" target="Zr96" branching_ratio="0.00055" />
+    <decay type="beta-" target="He4" branching_ratio="0.99945" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.00055" />
   </nuclide>
   <nuclide name="Y97_m1" half_life="1.17" decay_modes="2" decay_energy="4566230.1143" reactions="0">
-    <decay type="beta-" target="Zr97" branching_ratio="0.99945" />
-    <decay type="beta-,n" target="Zr96" branching_ratio="0.00055" />
+    <decay type="beta-" target="He4" branching_ratio="0.99945" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.00055" />
   </nuclide>
   <nuclide name="Y97_m2" half_life="0.142" decay_modes="2" decay_energy="3099248.7" reactions="0">
-    <decay type="beta-" target="Zr97" branching_ratio="0.052" />
-    <decay type="IT" target="Y97_m1" branching_ratio="0.948" />
+    <decay type="beta-" target="He4" branching_ratio="0.052" />
+    <decay type="IT" target="He4" branching_ratio="0.948" />
   </nuclide>
   <nuclide name="Y98" half_life="0.548" decay_modes="2" decay_energy="5580721.2535" reactions="0">
-    <decay type="beta-" target="Zr98" branching_ratio="0.99669" />
-    <decay type="beta-,n" target="Zr97" branching_ratio="0.00331" />
+    <decay type="beta-" target="He4" branching_ratio="0.99669" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.00331" />
   </nuclide>
   <nuclide name="Y98_m1" half_life="2.0" decay_modes="2" decay_energy="5267892.2756" reactions="0">
-    <decay type="beta-" target="Zr98" branching_ratio="0.99669" />
-    <decay type="beta-,n" target="Zr97" branching_ratio="0.00331" />
+    <decay type="beta-" target="He4" branching_ratio="0.99669" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.00331" />
   </nuclide>
   <nuclide name="Y99" half_life="1.47" decay_modes="2" decay_energy="3943668.943" reactions="0">
-    <decay type="beta-" target="Zr99" branching_ratio="0.983" />
-    <decay type="beta-,n" target="Zr98" branching_ratio="0.017" />
+    <decay type="beta-" target="He4" branching_ratio="0.983" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.017" />
   </nuclide>
   <nuclide name="Y100" half_life="0.735" decay_modes="2" decay_energy="5303874.679" reactions="0">
-    <decay type="beta-" target="Zr100" branching_ratio="0.9908" />
-    <decay type="beta-,n" target="Zr99" branching_ratio="0.0092" />
+    <decay type="beta-" target="He4" branching_ratio="0.9908" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.0092" />
   </nuclide>
   <nuclide name="Y100_m1" half_life="0.94" decay_modes="1" decay_energy="6128598.0" reactions="0">
-    <decay type="beta-" target="Zr100" branching_ratio="1.0" />
+    <decay type="beta-" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Y101" half_life="0.45" decay_modes="2" decay_energy="4428663.99" reactions="0">
-    <decay type="beta-" target="Zr101" branching_ratio="0.9806" />
-    <decay type="beta-,n" target="Zr100" branching_ratio="0.0194" />
+    <decay type="beta-" target="He4" branching_ratio="0.9806" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.0194" />
   </nuclide>
   <nuclide name="Y102" half_life="0.36" decay_modes="2" decay_energy="6210209.9" reactions="0">
-    <decay type="beta-" target="Zr102" branching_ratio="0.951" />
-    <decay type="beta-,n" target="Zr101" branching_ratio="0.049" />
+    <decay type="beta-" target="He4" branching_ratio="0.951" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.049" />
   </nuclide>
   <nuclide name="Y102_m1" half_life="0.298" decay_modes="2" decay_energy="6210209.68" reactions="0">
-    <decay type="beta-" target="Zr102" branching_ratio="0.951" />
-    <decay type="beta-,n" target="Zr101" branching_ratio="0.049" />
+    <decay type="beta-" target="He4" branching_ratio="0.951" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.049" />
   </nuclide>
   <nuclide name="Y103" half_life="0.23" decay_modes="2" decay_energy="4984349.38" reactions="0">
-    <decay type="beta-" target="Zr103" branching_ratio="0.92" />
-    <decay type="beta-,n" target="Zr102" branching_ratio="0.08" />
+    <decay type="beta-" target="He4" branching_ratio="0.92" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.08" />
   </nuclide>
   <nuclide name="Y104" half_life="0.18" decay_modes="3" decay_energy="6984952.44" reactions="0">
-    <decay type="beta-" target="Zr104" branching_ratio="0.949539" />
-    <decay type="beta-,n" target="Zr103" branching_ratio="0.05042061" />
-    <decay type="beta-,n,n" target="Zr102" branching_ratio="4.039000000000126e-05" />
+    <decay type="beta-" target="He4" branching_ratio="0.949539" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.05042061" />
+    <decay type="beta-,n,n" target="He4" branching_ratio="4.039000000000126e-05" />
   </nuclide>
   <nuclide name="Y105" half_life="0.088" decay_modes="3" decay_energy="5754201.41" reactions="0">
-    <decay type="beta-" target="Zr105" branching_ratio="0.90061" />
-    <decay type="beta-,n" target="Zr104" branching_ratio="0.09938922" />
-    <decay type="beta-,n,n" target="Zr103" branching_ratio="7.799999999225093e-07" />
+    <decay type="beta-" target="He4" branching_ratio="0.90061" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.09938922" />
+    <decay type="beta-,n,n" target="He4" branching_ratio="7.799999999225093e-07" />
   </nuclide>
   <nuclide name="Y106" half_life="0.066" decay_modes="3" decay_energy="6924590.04" reactions="0">
-    <decay type="beta-" target="Zr106" branching_ratio="0.75754" />
-    <decay type="beta-,n" target="Zr105" branching_ratio="0.2403712" />
-    <decay type="beta-,n,n" target="Zr104" branching_ratio="0.0020888" />
+    <decay type="beta-" target="He4" branching_ratio="0.75754" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.2403712" />
+    <decay type="beta-,n,n" target="He4" branching_ratio="0.0020888" />
   </nuclide>
   <nuclide name="Y107" half_life="0.03" decay_modes="3" decay_energy="5701012.6" reactions="0">
-    <decay type="beta-" target="Zr107" branching_ratio="0.6471" />
-    <decay type="beta-,n" target="Zr106" branching_ratio="0.3523257" />
-    <decay type="beta-,n,n" target="Zr105" branching_ratio="0.0005743000000000276" />
+    <decay type="beta-" target="He4" branching_ratio="0.6471" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.3523257" />
+    <decay type="beta-,n,n" target="He4" branching_ratio="0.0005743000000000276" />
   </nuclide>
   <nuclide name="Y108" half_life="0.048" decay_modes="3" decay_energy="6279155.1" reactions="0">
-    <decay type="beta-" target="Zr108" branching_ratio="0.47536" />
-    <decay type="beta-,n" target="Zr107" branching_ratio="0.510603" />
-    <decay type="beta-,n,n" target="Zr106" branching_ratio="0.014037" />
+    <decay type="beta-" target="He4" branching_ratio="0.47536" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.510603" />
+    <decay type="beta-,n,n" target="He4" branching_ratio="0.014037" />
   </nuclide>
   <nuclide name="Zr78" half_life="2e-07" decay_modes="2" decay_energy="7046166.0" reactions="0">
     <decay type="ec/beta+" target="He4" branching_ratio="0.5" />
@@ -6489,788 +6526,855 @@
     <decay type="beta-,n,n" target="He4" branching_ratio="1.0000000005838672e-07" />
   </nuclide>
   <nuclide name="I108" half_life="0.036" decay_modes="3" decay_energy="4475624.6" reactions="0">
-    <decay type="ec/beta+" target="Te108" branching_ratio="0.08910891" />
-    <decay type="alpha" target="Sb104" branching_ratio="0.9009901" />
-    <decay type="p" target="Te107" branching_ratio="0.00990099" />
+    <decay type="ec/beta+" target="He4" branching_ratio="0.08910891" />
+    <decay type="alpha" target="He4" branching_ratio="0.9009901" />
+    <decay type="p" target="He4" branching_ratio="0.00990099" />
   </nuclide>
   <nuclide name="I109" half_life="0.000103" decay_modes="1" decay_energy="819520.0" reactions="0">
-    <decay type="p" target="Te108" branching_ratio="1.0" />
+    <decay type="p" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="I110" half_life="0.65" decay_modes="4" decay_energy="7003419.1" reactions="0">
-    <decay type="ec/beta+,alpha" target="Sn106" branching_ratio="0.011" />
-    <decay type="ec/beta+" target="Te110" branching_ratio="0.709" />
-    <decay type="ec/beta+,p" target="Sb109" branching_ratio="0.11" />
-    <decay type="alpha" target="Sb106" branching_ratio="0.17" />
+    <decay type="ec/beta+,alpha" target="He4" branching_ratio="0.011" />
+    <decay type="ec/beta+" target="He4" branching_ratio="0.709" />
+    <decay type="ec/beta+,p" target="He4" branching_ratio="0.11" />
+    <decay type="alpha" target="He4" branching_ratio="0.17" />
   </nuclide>
   <nuclide name="I111" half_life="2.5" decay_modes="2" decay_energy="5753301.55" reactions="0">
-    <decay type="ec/beta+" target="Te111" branching_ratio="0.999" />
-    <decay type="alpha" target="Sb107" branching_ratio="0.001" />
+    <decay type="ec/beta+" target="He4" branching_ratio="0.999" />
+    <decay type="alpha" target="He4" branching_ratio="0.001" />
   </nuclide>
   <nuclide name="I112" half_life="3.42" decay_modes="2" decay_energy="7002737.84357" reactions="0">
-    <decay type="ec/beta+" target="Te112" branching_ratio="0.999988" />
-    <decay type="alpha" target="Sb108" branching_ratio="1.2e-05" />
+    <decay type="ec/beta+" target="He4" branching_ratio="0.999988" />
+    <decay type="alpha" target="He4" branching_ratio="1.2e-05" />
   </nuclide>
   <nuclide name="I113" half_life="6.6" decay_modes="2" decay_energy="4818352.008929469" reactions="0">
-    <decay type="ec/beta+" target="Te113" branching_ratio="1.0" />
-    <decay type="alpha" target="Sb109" branching_ratio="0.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
+    <decay type="alpha" target="He4" branching_ratio="0.0" />
   </nuclide>
   <nuclide name="I114" half_life="2.1" decay_modes="1" decay_energy="6061334.0" reactions="0">
-    <decay type="ec/beta+" target="Te114" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="I114_m1" half_life="6.2" decay_modes="2" decay_energy="5701057.0" reactions="0">
-    <decay type="ec/beta+" target="Te114" branching_ratio="0.91" />
-    <decay type="IT" target="I114" branching_ratio="0.09" />
+    <decay type="ec/beta+" target="He4" branching_ratio="0.91" />
+    <decay type="IT" target="He4" branching_ratio="0.09" />
   </nuclide>
   <nuclide name="I115" half_life="78.0" decay_modes="1" decay_energy="3816642.0" reactions="0">
-    <decay type="ec/beta+" target="Te115" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="I116" half_life="2.91" decay_modes="1" decay_energy="5184486.0" reactions="0">
-    <decay type="ec/beta+" target="Te116" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="I117" half_life="133.2" decay_modes="1" decay_energy="3108260.0" reactions="0">
-    <decay type="ec/beta+" target="Te117" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="I118" half_life="822.0" decay_modes="1" decay_energy="4070648.0" reactions="0">
-    <decay type="ec/beta+" target="Te118" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="I118_m1" half_life="510.0" decay_modes="1" decay_energy="4691639.0" reactions="0">
-    <decay type="ec/beta+" target="Te118" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="I119" half_life="1146.0" decay_modes="2" decay_energy="1513957.2000000002" reactions="0">
-    <decay type="ec/beta+" target="Te119" branching_ratio="0.9905067" />
-    <decay type="ec/beta+" target="Te119_m1" branching_ratio="0.0094933" />
+    <decay type="ec/beta+" target="He4" branching_ratio="0.9905067" />
+    <decay type="ec/beta+" target="He4" branching_ratio="0.0094933" />
   </nuclide>
   <nuclide name="I120" half_life="4896.0" decay_modes="1" decay_energy="3274442.0" reactions="0">
-    <decay type="ec/beta+" target="Te120" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="I120_m1" half_life="3180.0" decay_modes="1" decay_energy="3956666.0" reactions="0">
-    <decay type="ec/beta+" target="Te120" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="I121" half_life="7632.0" decay_modes="2" decay_energy="469753.04" reactions="0">
-    <decay type="ec/beta+" target="Te121" branching_ratio="0.9971488" />
-    <decay type="ec/beta+" target="Te121_m1" branching_ratio="0.0028512" />
+    <decay type="ec/beta+" target="He4" branching_ratio="0.9971488" />
+    <decay type="ec/beta+" target="He4" branching_ratio="0.0028512" />
   </nuclide>
   <nuclide name="I122" half_life="217.8" decay_modes="1" decay_energy="2070754.1" reactions="0">
-    <decay type="ec/beta+" target="Te122" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="I123" half_life="47604.24" decay_modes="1" decay_energy="200662.4" reactions="0">
-    <decay type="ec/beta+" target="Te123" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="I124" half_life="360806.4" decay_modes="1" decay_energy="1309608.0" reactions="0">
-    <decay type="ec/beta+" target="Te124" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="I125" half_life="5132160.0" decay_modes="1" decay_energy="60467.08" reactions="0">
-    <decay type="ec/beta+" target="Te125" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="I126" half_life="1117152.0" decay_modes="2" decay_energy="595931.3" reactions="0">
-    <decay type="ec/beta+" target="Te126" branching_ratio="0.527" />
-    <decay type="beta-" target="Xe126" branching_ratio="0.473" />
+    <decay type="ec/beta+" target="He4" branching_ratio="0.527" />
+    <decay type="beta-" target="He4" branching_ratio="0.473" />
   </nuclide>
   <nuclide name="I127" reactions="6">
-    <reaction type="(n,2n)" Q="-9137380.0" target="I126" />
-    <reaction type="(n,3n)" Q="-16278700.0" target="I125" />
-    <reaction type="(n,4n)" Q="-25828100.0" target="I124" />
-    <reaction type="(n,gamma)" Q="6825400.0" target="I128" />
-    <reaction type="(n,p)" Q="86351.0" target="Te127" />
-    <reaction type="(n,a)" Q="4284370.0" target="Sb124" />
+    <reaction type="(n,2n)" Q="-9137380.0" target="He4" />
+    <reaction type="(n,3n)" Q="-16278700.0" target="He4" />
+    <reaction type="(n,4n)" Q="-25828100.0" target="He4" />
+    <reaction type="(n,gamma)" Q="6825400.0" target="He4" />
+    <reaction type="(n,p)" Q="86351.0" target="He4" />
+    <reaction type="(n,a)" Q="4284370.0" target="He4" />
   </nuclide>
   <nuclide name="I128" half_life="1499.4" decay_modes="2" decay_energy="813606.69" reactions="0">
-    <decay type="beta-" target="Xe128" branching_ratio="0.931" />
-    <decay type="ec/beta+" target="Te128" branching_ratio="0.069" />
+    <decay type="beta-" target="He4" branching_ratio="0.931" />
+    <decay type="ec/beta+" target="He4" branching_ratio="0.069" />
   </nuclide>
   <nuclide name="I129" half_life="495454000000000.0" decay_modes="1" decay_energy="74337.68000000001" reactions="6">
-    <decay type="beta-" target="Xe129" branching_ratio="1.0" />
-    <reaction type="(n,2n)" Q="-8847090.0" target="I128" />
-    <reaction type="(n,3n)" Q="-15677200.0" target="I127" />
-    <reaction type="(n,p)" Q="-715531.0" target="Te129" />
-    <reaction type="(n,a)" Q="3551200.0" target="Sb126" />
-    <reaction type="(n,gamma)" Q="6463390.0" target="I130" branching_ratio="0.413" />
-    <reaction type="(n,gamma)" Q="6463390.0" target="I130_m1" branching_ratio="0.587" />
+    <decay type="beta-" target="He4" branching_ratio="1.0" />
+    <reaction type="(n,2n)" Q="-8847090.0" target="He4" />
+    <reaction type="(n,3n)" Q="-15677200.0" target="He4" />
+    <reaction type="(n,p)" Q="-715531.0" target="He4" />
+    <reaction type="(n,a)" Q="3551200.0" target="He4" />
+    <reaction type="(n,gamma)" Q="6463390.0" target="He4" branching_ratio="0.413" />
+    <reaction type="(n,gamma)" Q="6463390.0" target="He4" branching_ratio="0.587" />
   </nuclide>
   <nuclide name="I130" half_life="44496.0" decay_modes="1" decay_energy="2416395.4" reactions="5">
-    <decay type="beta-" target="Xe130" branching_ratio="1.0" />
-    <reaction type="(n,2n)" Q="-6500000.0" target="I129" />
-    <reaction type="(n,3n)" Q="-15333000.0" target="I128" />
-    <reaction type="(n,gamma)" Q="8583000.0" target="I131" />
-    <reaction type="(n,p)" Q="0.0" target="Te130" />
-    <reaction type="(n,a)" Q="0.0" target="Sb127" />
+    <decay type="beta-" target="He4" branching_ratio="1.0" />
+    <reaction type="(n,2n)" Q="-6500000.0" target="He4" />
+    <reaction type="(n,3n)" Q="-15333000.0" target="He4" />
+    <reaction type="(n,gamma)" Q="8583000.0" target="He4" />
+    <reaction type="(n,p)" Q="0.0" target="He4" />
+    <reaction type="(n,a)" Q="0.0" target="He4" />
   </nuclide>
   <nuclide name="I130_m1" half_life="530.4" decay_modes="2" decay_energy="284413.2" reactions="0">
-    <decay type="beta-" target="Xe130" branching_ratio="0.16" />
-    <decay type="IT" target="I130" branching_ratio="0.84" />
+    <decay type="beta-" target="He4" branching_ratio="0.16" />
+    <decay type="IT" target="He4" branching_ratio="0.84" />
   </nuclide>
   <nuclide name="I131" half_life="693377.3" decay_modes="2" decay_energy="573437.5" reactions="6">
-    <decay type="beta-" target="Xe131" branching_ratio="0.9891523" />
-    <decay type="beta-" target="Xe131_m1" branching_ratio="0.0108477" />
-    <reaction type="(n,2n)" Q="-8630100.0" target="I130" />
-    <reaction type="(n,3n)" Q="-15098200.0" target="I129" />
-    <reaction type="(n,p)" Q="-1467540.0" target="Te131" />
-    <reaction type="(n,a)" Q="2933210.0" target="Sb128" />
-    <reaction type="(n,gamma)" Q="6326390.0" target="I132" branching_ratio="0.9839" />
-    <reaction type="(n,gamma)" Q="6326390.0" target="I132_m1" branching_ratio="0.0161" />
+    <decay type="beta-" target="He4" branching_ratio="0.9891523" />
+    <decay type="beta-" target="He4" branching_ratio="0.0108477" />
+    <reaction type="(n,2n)" Q="-8630100.0" target="He4" />
+    <reaction type="(n,3n)" Q="-15098200.0" target="He4" />
+    <reaction type="(n,p)" Q="-1467540.0" target="He4" />
+    <reaction type="(n,a)" Q="2933210.0" target="He4" />
+    <reaction type="(n,gamma)" Q="6326390.0" target="He4" branching_ratio="0.9839" />
+    <reaction type="(n,gamma)" Q="6326390.0" target="He4" branching_ratio="0.0161" />
   </nuclide>
   <nuclide name="I132" half_life="8262.0" decay_modes="1" decay_energy="2756312.5" reactions="0">
-    <decay type="beta-" target="Xe132" branching_ratio="1.0" />
+    <decay type="beta-" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="I132_m1" half_life="4993.2" decay_modes="2" decay_energy="491884.1" reactions="0">
-    <decay type="beta-" target="Xe132" branching_ratio="0.14" />
-    <decay type="IT" target="I132" branching_ratio="0.86" />
+    <decay type="beta-" target="He4" branching_ratio="0.14" />
+    <decay type="IT" target="He4" branching_ratio="0.86" />
   </nuclide>
   <nuclide name="I133" half_life="74880.0" decay_modes="2" decay_energy="1018885.5" reactions="0">
-    <decay type="beta-" target="Xe133" branching_ratio="0.971541" />
-    <decay type="beta-" target="Xe133_m1" branching_ratio="0.028459" />
+    <decay type="beta-" target="He4" branching_ratio="0.971541" />
+    <decay type="beta-" target="He4" branching_ratio="0.028459" />
   </nuclide>
   <nuclide name="I133_m1" half_life="9.0" decay_modes="1" decay_energy="1633729.1" reactions="0">
-    <decay type="IT" target="I133" branching_ratio="1.0" />
+    <decay type="IT" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="I134" half_life="3150.0" decay_modes="1" decay_energy="3185878.5" reactions="0">
-    <decay type="beta-" target="Xe134" branching_ratio="1.0" />
+    <decay type="beta-" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="I134_m1" half_life="211.2" decay_modes="2" decay_energy="330657.35" reactions="0">
-    <decay type="beta-" target="Xe134_m1" branching_ratio="0.023" />
-    <decay type="IT" target="I134" branching_ratio="0.977" />
+    <decay type="beta-" target="He4" branching_ratio="0.023" />
+    <decay type="IT" target="He4" branching_ratio="0.977" />
   </nuclide>
   <nuclide name="I135" half_life="23652.0" decay_modes="2" decay_energy="1916827.5" reactions="5">
-    <decay type="beta-" target="Xe135" branching_ratio="0.8349109" />
-    <decay type="beta-" target="Xe135_m1" branching_ratio="0.1650891" />
-    <reaction type="(n,2n)" Q="-7902600.0" target="I134" />
-    <reaction type="(n,3n)" Q="-14075000.0" target="I133" />
-    <reaction type="(n,gamma)" Q="3800300.0" target="I136" />
-    <reaction type="(n,p)" Q="-5168900.0" target="Te135" />
-    <reaction type="(n,a)" Q="1555300.0" target="Sb132" />
+    <decay type="beta-" target="He4" branching_ratio="0.8349109" />
+    <decay type="beta-" target="He4" branching_ratio="0.1650891" />
+    <reaction type="(n,2n)" Q="-7902600.0" target="He4" />
+    <reaction type="(n,3n)" Q="-14075000.0" target="He4" />
+    <reaction type="(n,gamma)" Q="3800300.0" target="He4" />
+    <reaction type="(n,p)" Q="-5168900.0" target="He4" />
+    <reaction type="(n,a)" Q="1555300.0" target="He4" />
   </nuclide>
   <nuclide name="I136" half_life="83.4" decay_modes="1" decay_energy="4307786.0" reactions="0">
-    <decay type="beta-" target="Xe136" branching_ratio="1.0" />
+    <decay type="beta-" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="I136_m1" half_life="46.9" decay_modes="1" decay_energy="4780306.0" reactions="0">
-    <decay type="beta-" target="Xe136" branching_ratio="1.0" />
+    <decay type="beta-" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="I137" half_life="24.5" decay_modes="2" decay_energy="3099140.62" reactions="0">
-    <decay type="beta-" target="Xe137" branching_ratio="0.9286" />
-    <decay type="beta-,n" target="Xe136" branching_ratio="0.0714" />
+    <decay type="beta-" target="He4" branching_ratio="0.9286" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.0714" />
   </nuclide>
   <nuclide name="I138" half_life="6.23" decay_modes="2" decay_energy="4508439.48" reactions="0">
-    <decay type="beta-" target="Xe138" branching_ratio="0.9444" />
-    <decay type="beta-,n" target="Xe137" branching_ratio="0.0556" />
+    <decay type="beta-" target="He4" branching_ratio="0.9444" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.0556" />
   </nuclide>
   <nuclide name="I139" half_life="2.28" decay_modes="2" decay_energy="4567966.88" reactions="0">
-    <decay type="beta-" target="Xe139" branching_ratio="0.9" />
-    <decay type="beta-,n" target="Xe138" branching_ratio="0.1" />
+    <decay type="beta-" target="He4" branching_ratio="0.9" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.1" />
   </nuclide>
   <nuclide name="I140" half_life="0.86" decay_modes="3" decay_energy="5952315.49" reactions="0">
-    <decay type="beta-" target="Xe140" branching_ratio="0.902367" />
-    <decay type="beta-,n" target="Xe139" branching_ratio="0.097633" />
-    <decay type="beta-,n,n" target="Xe138" branching_ratio="0.0" />
+    <decay type="beta-" target="He4" branching_ratio="0.902367" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.097633" />
+    <decay type="beta-,n,n" target="He4" branching_ratio="0.0" />
   </nuclide>
   <nuclide name="I141" half_life="0.43" decay_modes="2" decay_energy="4710949.06" reactions="0">
-    <decay type="beta-" target="Xe141" branching_ratio="0.788" />
-    <decay type="beta-,n" target="Xe140" branching_ratio="0.212" />
+    <decay type="beta-" target="He4" branching_ratio="0.788" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.212" />
   </nuclide>
   <nuclide name="I142" half_life="0.222" decay_modes="3" decay_energy="4823450.3" reactions="0">
-    <decay type="beta-" target="Xe142" branching_ratio="0.47612" />
-    <decay type="beta-,n" target="Xe141" branching_ratio="0.5225796" />
-    <decay type="beta-,n,n" target="Xe140" branching_ratio="0.0013004" />
+    <decay type="beta-" target="He4" branching_ratio="0.47612" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.5225796" />
+    <decay type="beta-,n,n" target="He4" branching_ratio="0.0013004" />
   </nuclide>
   <nuclide name="I143" half_life="0.296" decay_modes="3" decay_energy="3369842.5" reactions="0">
-    <decay type="beta-" target="Xe143" branching_ratio="0.07535" />
-    <decay type="beta-,n" target="Xe142" branching_ratio="0.9246255" />
-    <decay type="beta-,n,n" target="Xe141" branching_ratio="2.449999999998287e-05" />
+    <decay type="beta-" target="He4" branching_ratio="0.07535" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.9246255" />
+    <decay type="beta-,n,n" target="He4" branching_ratio="2.449999999998287e-05" />
   </nuclide>
   <nuclide name="I144" half_life="0.194" decay_modes="3" decay_energy="5449667.5" reactions="0">
-    <decay type="beta-" target="Xe144" branching_ratio="0.6351" />
-    <decay type="beta-,n" target="Xe143" branching_ratio="0.3594931" />
-    <decay type="beta-,n,n" target="Xe142" branching_ratio="0.0054069" />
+    <decay type="beta-" target="He4" branching_ratio="0.6351" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.3594931" />
+    <decay type="beta-,n,n" target="He4" branching_ratio="0.0054069" />
   </nuclide>
   <nuclide name="I145" half_life="0.127" decay_modes="3" decay_energy="4326492.6" reactions="0">
-    <decay type="beta-" target="Xe145" branching_ratio="0.43044" />
-    <decay type="beta-,n" target="Xe144" branching_ratio="0.5686386" />
-    <decay type="beta-,n,n" target="Xe143" branching_ratio="0.0009213999999999611" />
+    <decay type="beta-" target="He4" branching_ratio="0.43044" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.5686386" />
+    <decay type="beta-,n,n" target="He4" branching_ratio="0.0009213999999999611" />
   </nuclide>
-  <nuclide name="Xe110" half_life="0.001" decay_modes="3" decay_energy="4530000.0" reactions="0">
+  <nuclide name="Xe110" half_life="0.093" decay_modes="3" decay_energy="4530000.0" reactions="0">
     <decay type="ec/beta+" target="He4" branching_ratio="0.359" />
     <decay type="ec/beta+,p" target="He4" branching_ratio="0.001" />
     <decay type="alpha" target="He4" branching_ratio="0.64" />
   </nuclide>
-  <nuclide name="Xe111" half_life="0.001" decay_modes="2" decay_energy="6708000.0" reactions="0">
+  <nuclide name="Xe111" half_life="0.81" decay_modes="2" decay_energy="6708000.0" reactions="0">
     <decay type="ec/beta+" target="He4" branching_ratio="0.9" />
     <decay type="alpha" target="He4" branching_ratio="0.1" />
   </nuclide>
-  <nuclide name="Xe112" half_life="0.001" decay_modes="2" decay_energy="4678522.77" reactions="0">
+  <nuclide name="Xe112" half_life="2.7" decay_modes="2" decay_energy="4678522.77" reactions="0">
     <decay type="ec/beta+" target="He4" branching_ratio="0.9916" />
     <decay type="alpha" target="He4" branching_ratio="0.0084" />
   </nuclide>
-  <nuclide name="Xe113" half_life="0.001" decay_modes="4" decay_energy="6018049.1" reactions="0">
+  <nuclide name="Xe113" half_life="2.74" decay_modes="4" decay_energy="6018049.1" reactions="0">
     <decay type="ec/beta+,alpha" target="He4" branching_ratio="6.9993e-05" />
     <decay type="ec/beta+" target="He4" branching_ratio="0.929837" />
     <decay type="ec/beta+,p" target="He4" branching_ratio="0.069993" />
     <decay type="alpha" target="He4" branching_ratio="0.00010000700000001306" />
   </nuclide>
-  <nuclide name="Xe114" half_life="0.001" decay_modes="1" decay_energy="3806666.0" reactions="0">
+  <nuclide name="Xe114" half_life="10.0" decay_modes="1" decay_energy="3806666.0" reactions="0">
     <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
-  <nuclide name="Xe115" half_life="0.001" decay_modes="3" decay_energy="5118420.6" reactions="0">
+  <nuclide name="Xe115" half_life="18.0" decay_modes="3" decay_energy="5118420.6" reactions="0">
     <decay type="ec/beta+" target="He4" branching_ratio="0.996597" />
     <decay type="ec/beta+,p" target="He4" branching_ratio="0.003399989" />
     <decay type="alpha" target="He4" branching_ratio="3.0109999999972104e-06" />
   </nuclide>
-  <nuclide name="Xe116" half_life="0.001" decay_modes="1" decay_energy="2963674.0" reactions="0">
+  <nuclide name="Xe116" half_life="59.0" decay_modes="1" decay_energy="2963674.0" reactions="0">
     <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
-  <nuclide name="Xe117" half_life="0.001" decay_modes="2" decay_energy="4166077.51107" reactions="0">
+  <nuclide name="Xe117" half_life="61.0" decay_modes="2" decay_energy="4166077.51107" reactions="0">
     <decay type="ec/beta+" target="He4" branching_ratio="0.999971" />
     <decay type="ec/beta+,p" target="He4" branching_ratio="2.9e-05" />
   </nuclide>
-  <nuclide name="Xe118" half_life="0.001" decay_modes="1" decay_energy="1927996.0" reactions="0">
+  <nuclide name="Xe118" half_life="228.0" decay_modes="1" decay_energy="1927996.0" reactions="0">
     <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
-  <nuclide name="Xe119" half_life="0.001" decay_modes="1" decay_energy="3314080.0" reactions="0">
+  <nuclide name="Xe119" half_life="348.0" decay_modes="1" decay_energy="3314080.0" reactions="0">
     <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
-  <nuclide name="Xe120" half_life="0.001" decay_modes="1" decay_energy="440883.69" reactions="0">
+  <nuclide name="Xe120" half_life="2400.0" decay_modes="1" decay_energy="440883.69" reactions="0">
     <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
-  <nuclide name="Xe121" half_life="0.001" decay_modes="1" decay_energy="2015776.6" reactions="0">
+  <nuclide name="Xe121" half_life="2406.0" decay_modes="1" decay_energy="2015776.6" reactions="0">
     <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
-  <nuclide name="Xe122" half_life="0.001" decay_modes="1" decay_energy="78337.69" reactions="0">
+  <nuclide name="Xe122" half_life="72360.0" decay_modes="1" decay_energy="78337.69" reactions="0">
     <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
-  <nuclide name="Xe123" half_life="0.001" decay_modes="1" decay_energy="841556.6000000001" reactions="0">
+  <nuclide name="Xe123" half_life="7488.0" decay_modes="1" decay_energy="841556.6000000001" reactions="5">
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
+    <reaction type="(n,2n)" Q="-7964868.0" target="He4" />
+    <reaction type="(n,3n)" Q="-18918410.0" target="He4" />
+    <reaction type="(n,gamma)" Q="10482870.0" target="He4" />
+    <reaction type="(n,p)" Q="3477108.0" target="He4" />
+    <reaction type="(n,a)" Q="9802437.0" target="He4" />
+  </nuclide>
+  <nuclide name="Xe124" reactions="6">
+    <reaction type="(n,2n)" Q="-10482870.0" target="He4" />
+    <reaction type="(n,3n)" Q="-18447740.0" target="He4" />
+    <reaction type="(n,p)" Q="487203.7" target="He4" />
+    <reaction type="(n,a)" Q="6537449.0" target="He4" />
+    <reaction type="(n,gamma)" Q="7603278.0" target="He4" branching_ratio="0.83" />
+    <reaction type="(n,gamma)" Q="7603278.0" target="He4" branching_ratio="0.17" />
+  </nuclide>
+  <nuclide name="Xe125" half_life="60840.0" decay_modes="1" decay_energy="305129.15" reactions="0">
     <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
-  <nuclide name="Xe124" reactions="0">
-  </nuclide>
-  <nuclide name="Xe125" half_life="0.001" decay_modes="1" decay_energy="305129.15" reactions="0">
-    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
-  </nuclide>
-  <nuclide name="Xe125_m1" half_life="0.001" decay_modes="1" decay_energy="251914.7" reactions="0">
+  <nuclide name="Xe125_m1" half_life="56.9" decay_modes="1" decay_energy="251914.7" reactions="0">
     <decay type="IT" target="He4" branching_ratio="1.0" />
   </nuclide>
-  <nuclide name="Xe126" reactions="0">
+  <nuclide name="Xe126" reactions="6">
+    <reaction type="(n,2n)" Q="-10128100.0" target="He4" />
+    <reaction type="(n,3n)" Q="-17864200.0" target="He4" />
+    <reaction type="(n,p)" Q="-468544.0" target="He4" />
+    <reaction type="(n,a)" Q="5657690.0" target="He4" />
+    <reaction type="(n,gamma)" Q="7225390.0" target="He4" branching_ratio="0.8691" />
+    <reaction type="(n,gamma)" Q="7225390.0" target="He4" branching_ratio="0.1309" />
   </nuclide>
-  <nuclide name="Xe127" half_life="0.001" decay_modes="1" decay_energy="312676.31" reactions="0">
+  <nuclide name="Xe127" half_life="3144960.0" decay_modes="1" decay_energy="312676.31" reactions="0">
     <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
-  <nuclide name="Xe127_m1" half_life="0.001" decay_modes="1" decay_energy="296794.2" reactions="0">
+  <nuclide name="Xe127_m1" half_life="69.2" decay_modes="1" decay_energy="296794.2" reactions="0">
     <decay type="IT" target="He4" branching_ratio="1.0" />
   </nuclide>
-  <nuclide name="Xe128" reactions="0">
+  <nuclide name="Xe128" reactions="6">
+    <reaction type="(n,2n)" Q="-9621290.0" target="He4" />
+    <reaction type="(n,3n)" Q="-16851400.0" target="He4" />
+    <reaction type="(n,p)" Q="-1344730.0" target="He4" />
+    <reaction type="(n,a)" Q="4812000.0" target="He4" />
+    <reaction type="(n,gamma)" Q="6907690.0" target="He4" branching_ratio="0.8923" />
+    <reaction type="(n,gamma)" Q="6907690.0" target="He4" branching_ratio="0.1077" />
   </nuclide>
-  <nuclide name="Xe129" reactions="0">
+  <nuclide name="Xe129" reactions="5">
+    <reaction type="(n,2n)" Q="-6912400.0" target="He4" />
+    <reaction type="(n,3n)" Q="-16533700.0" target="He4" />
+    <reaction type="(n,gamma)" Q="9255090.0" target="He4" />
+    <reaction type="(n,p)" Q="589955.0" target="He4" />
+    <reaction type="(n,a)" Q="7022690.0" target="He4" />
   </nuclide>
-  <nuclide name="Xe129_m1" half_life="0.001" decay_modes="1" decay_energy="234803.89" reactions="0">
+  <nuclide name="Xe129_m1" half_life="767232.0" decay_modes="1" decay_energy="234803.89" reactions="0">
     <decay type="IT" target="He4" branching_ratio="1.0" />
   </nuclide>
-  <nuclide name="Xe130" reactions="0">
+  <nuclide name="Xe130" reactions="6">
+    <reaction type="(n,2n)" Q="-9258000.0" target="He4" />
+    <reaction type="(n,3n)" Q="-16163000.0" target="He4" />
+    <reaction type="(n,p)" Q="-2209700.0" target="He4" />
+    <reaction type="(n,a)" Q="4055000.0" target="He4" />
+    <reaction type="(n,gamma)" Q="6605600.0" target="He4" branching_ratio="0.9164" />
+    <reaction type="(n,gamma)" Q="6605600.0" target="He4" branching_ratio="0.0836" />
   </nuclide>
-  <nuclide name="Xe131" reactions="0">
+  <nuclide name="Xe131" reactions="5">
+    <reaction type="(n,2n)" Q="-6605000.0" target="He4" />
+    <reaction type="(n,3n)" Q="-15861000.0" target="He4" />
+    <reaction type="(n,gamma)" Q="8935000.0" target="He4" />
+    <reaction type="(n,p)" Q="0.0" target="He4" />
+    <reaction type="(n,a)" Q="0.0" target="He4" />
   </nuclide>
-  <nuclide name="Xe131_m1" half_life="0.001" decay_modes="1" decay_energy="162931.59" reactions="0">
+  <nuclide name="Xe131_m1" half_life="1022976.0" decay_modes="1" decay_energy="162931.59" reactions="0">
     <decay type="IT" target="He4" branching_ratio="1.0" />
   </nuclide>
-  <nuclide name="Xe132" reactions="0">
+  <nuclide name="Xe132" reactions="6">
+    <reaction type="(n,2n)" Q="-8934600.0" target="He4" />
+    <reaction type="(n,3n)" Q="-15554000.0" target="He4" />
+    <reaction type="(n,p)" Q="-2794600.0" target="He4" />
+    <reaction type="(n,a)" Q="3360500.0" target="He4" />
+    <reaction type="(n,gamma)" Q="6438300.0" target="He4" branching_ratio="0.8867" />
+    <reaction type="(n,gamma)" Q="6438300.0" target="He4" branching_ratio="0.1133" />
   </nuclide>
-  <nuclide name="Xe132_m1" half_life="0.001" decay_modes="1" decay_energy="2752092.26" reactions="0">
+  <nuclide name="Xe132_m1" half_life="0.00839" decay_modes="1" decay_energy="2752092.26" reactions="0">
     <decay type="IT" target="He4" branching_ratio="1.0" />
   </nuclide>
-  <nuclide name="Xe133" half_life="0.001" decay_modes="1" decay_energy="183060.06" reactions="0">
+  <nuclide name="Xe133" half_life="452995.2" decay_modes="1" decay_energy="183060.06" reactions="6">
     <decay type="beta-" target="He4" branching_ratio="1.0" />
+    <reaction type="(n,2n)" Q="-6452100.0" target="He4" />
+    <reaction type="(n,3n)" Q="-15393200.0" target="He4" />
+    <reaction type="(n,p)" Q="-977534.0" target="He4" />
+    <reaction type="(n,a)" Q="5340200.0" target="He4" />
+    <reaction type="(n,gamma)" Q="8534390.0" target="He4" branching_ratio="0.96" />
+    <reaction type="(n,gamma)" Q="8534390.0" target="He4" branching_ratio="0.04" />
   </nuclide>
-  <nuclide name="Xe133_m1" half_life="0.001" decay_modes="1" decay_energy="232565.19" reactions="0">
+  <nuclide name="Xe133_m1" half_life="189216.0" decay_modes="1" decay_energy="232565.19" reactions="0">
     <decay type="IT" target="He4" branching_ratio="1.0" />
   </nuclide>
-  <nuclide name="Xe134" reactions="0">
+  <nuclide name="Xe134" reactions="6">
+    <reaction type="(n,2n)" Q="-8536900.0" target="He4" />
+    <reaction type="(n,3n)" Q="-14975000.0" target="He4" />
+    <reaction type="(n,p)" Q="-3352500.0" target="He4" />
+    <reaction type="(n,a)" Q="2728000.0" target="He4" />
+    <reaction type="(n,gamma)" Q="6452300.0" target="He4" branching_ratio="0.9853" />
+    <reaction type="(n,gamma)" Q="6452300.0" target="He4" branching_ratio="0.0147" />
   </nuclide>
-  <nuclide name="Xe134_m1" half_life="0.001" decay_modes="1" decay_energy="1969802.25" reactions="0">
+  <nuclide name="Xe134_m1" half_life="0.29" decay_modes="1" decay_energy="1969802.25" reactions="0">
     <decay type="IT" target="He4" branching_ratio="1.0" />
   </nuclide>
-  <nuclide name="Xe135" half_life="0.001" decay_modes="1" decay_energy="567980.1000000001" reactions="0">
+  <nuclide name="Xe135" half_life="32904.0" decay_modes="1" decay_energy="567980.1000000001" reactions="5">
     <decay type="beta-" target="He4" branching_ratio="1.0" />
+    <reaction type="(n,2n)" Q="-6457100.0" target="He4" />
+    <reaction type="(n,3n)" Q="-14996200.0" target="He4" />
+    <reaction type="(n,gamma)" Q="7990390.0" target="He4" />
+    <reaction type="(n,p)" Q="-1927530.0" target="He4" />
+    <reaction type="(n,a)" Q="4361190.0" target="He4" />
   </nuclide>
-  <nuclide name="Xe135_m1" half_life="0.001" decay_modes="2" decay_energy="526729.1900000001" reactions="0">
+  <nuclide name="Xe135_m1" half_life="917.4" decay_modes="2" decay_energy="526729.1900000001" reactions="0">
     <decay type="beta-" target="He4" branching_ratio="0.003" />
     <decay type="IT" target="He4" branching_ratio="0.997" />
   </nuclide>
-  <nuclide name="Xe136" reactions="0">
+  <nuclide name="Xe136" reactions="5">
+    <reaction type="(n,2n)" Q="-7994800.0" target="He4" />
+    <reaction type="(n,3n)" Q="-14447000.0" target="He4" />
+    <reaction type="(n,gamma)" Q="4024800.0" target="He4" />
+    <reaction type="(n,p)" Q="-6096700.0" target="He4" />
+    <reaction type="(n,a)" Q="2186800.0" target="He4" />
   </nuclide>
-  <nuclide name="Xe137" half_life="0.001" decay_modes="1" decay_energy="1889053.3" reactions="0">
+  <nuclide name="Xe137" half_life="229.08" decay_modes="1" decay_energy="1889053.3" reactions="0">
     <decay type="beta-" target="He4" branching_ratio="1.0" />
   </nuclide>
-  <nuclide name="Xe138" half_life="0.001" decay_modes="1" decay_energy="1826459.8" reactions="0">
+  <nuclide name="Xe138" half_life="844.8" decay_modes="1" decay_energy="1826459.8" reactions="0">
     <decay type="beta-" target="He4" branching_ratio="1.0" />
   </nuclide>
-  <nuclide name="Xe139" half_life="0.001" decay_modes="1" decay_energy="2834992.0" reactions="0">
+  <nuclide name="Xe139" half_life="39.68" decay_modes="1" decay_energy="2834992.0" reactions="0">
     <decay type="beta-" target="He4" branching_ratio="1.0" />
   </nuclide>
-  <nuclide name="Xe140" half_life="0.001" decay_modes="1" decay_energy="2231243.0" reactions="0">
+  <nuclide name="Xe140" half_life="13.6" decay_modes="1" decay_energy="2231243.0" reactions="0">
     <decay type="beta-" target="He4" branching_ratio="1.0" />
   </nuclide>
-  <nuclide name="Xe141" half_life="0.001" decay_modes="2" decay_energy="3101381.92571" reactions="0">
+  <nuclide name="Xe141" half_life="1.73" decay_modes="2" decay_energy="3101381.92571" reactions="0">
     <decay type="beta-" target="He4" branching_ratio="0.99956" />
     <decay type="beta-,n" target="He4" branching_ratio="0.00044" />
   </nuclide>
-  <nuclide name="Xe142" half_life="0.001" decay_modes="2" decay_energy="2882999.3898" reactions="0">
+  <nuclide name="Xe142" half_life="1.23" decay_modes="2" decay_energy="2882999.3898" reactions="0">
     <decay type="beta-" target="He4" branching_ratio="0.9979" />
     <decay type="beta-,n" target="He4" branching_ratio="0.0021" />
   </nuclide>
-  <nuclide name="Xe143" half_life="0.001" decay_modes="2" decay_energy="4841991.33" reactions="0">
+  <nuclide name="Xe143" half_life="0.3" decay_modes="2" decay_energy="4841991.33" reactions="0">
     <decay type="beta-" target="He4" branching_ratio="0.9947506" />
     <decay type="beta-,n" target="He4" branching_ratio="0.0052494" />
   </nuclide>
-  <nuclide name="Xe144" half_life="0.001" decay_modes="2" decay_energy="3511188.916" reactions="0">
+  <nuclide name="Xe144" half_life="1.15" decay_modes="2" decay_energy="3511188.916" reactions="0">
     <decay type="beta-" target="He4" branching_ratio="0.9925408" />
     <decay type="beta-,n" target="He4" branching_ratio="0.0074592" />
   </nuclide>
-  <nuclide name="Xe145" half_life="0.001" decay_modes="3" decay_energy="5349331.22" reactions="0">
+  <nuclide name="Xe145" half_life="0.188" decay_modes="3" decay_energy="5349331.22" reactions="0">
     <decay type="beta-" target="He4" branching_ratio="0.970433" />
     <decay type="beta-,n" target="He4" branching_ratio="0.029567" />
     <decay type="beta-,n,n" target="He4" branching_ratio="0.0" />
   </nuclide>
-  <nuclide name="Xe146" half_life="0.001" decay_modes="2" decay_energy="4129729.43" reactions="0">
+  <nuclide name="Xe146" half_life="0.369" decay_modes="2" decay_energy="4129729.43" reactions="0">
     <decay type="beta-" target="He4" branching_ratio="0.976229" />
     <decay type="beta-,n" target="He4" branching_ratio="0.023771" />
   </nuclide>
-  <nuclide name="Xe147" half_life="0.001" decay_modes="2" decay_energy="5148638.38" reactions="0">
+  <nuclide name="Xe147" half_life="0.1" decay_modes="2" decay_energy="5148638.38" reactions="0">
     <decay type="beta-" target="He4" branching_ratio="0.92" />
     <decay type="beta-,n" target="He4" branching_ratio="0.08" />
   </nuclide>
   <nuclide name="Cs112" half_life="0.0005" decay_modes="1" decay_energy="814300.0" reactions="0">
-    <decay type="p" target="Xe111" branching_ratio="1.0" />
+    <decay type="p" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Cs113" half_life="1.67e-05" decay_modes="1" decay_energy="973530.0" reactions="0">
-    <decay type="p" target="Xe112" branching_ratio="1.0" />
+    <decay type="p" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Cs114" half_life="0.57" decay_modes="4" decay_energy="8161353.7" reactions="0">
-    <decay type="ec/beta+,alpha" target="Te110" branching_ratio="0.0019" />
-    <decay type="ec/beta+" target="Xe114" branching_ratio="0.9109" />
-    <decay type="ec/beta+,p" target="I113" branching_ratio="0.087" />
-    <decay type="alpha" target="I110" branching_ratio="0.0002" />
+    <decay type="ec/beta+,alpha" target="He4" branching_ratio="0.0019" />
+    <decay type="ec/beta+" target="He4" branching_ratio="0.9109" />
+    <decay type="ec/beta+,p" target="He4" branching_ratio="0.087" />
+    <decay type="alpha" target="He4" branching_ratio="0.0002" />
   </nuclide>
   <nuclide name="Cs115" half_life="1.4" decay_modes="2" decay_energy="5970202.4" reactions="0">
-    <decay type="ec/beta+" target="Xe115" branching_ratio="0.9993" />
-    <decay type="ec/beta+,p" target="I114" branching_ratio="0.0007" />
+    <decay type="ec/beta+" target="He4" branching_ratio="0.9993" />
+    <decay type="ec/beta+,p" target="He4" branching_ratio="0.0007" />
   </nuclide>
   <nuclide name="Cs116" half_life="0.7" decay_modes="3" decay_energy="7262235.32" reactions="0">
-    <decay type="ec/beta+,alpha" target="Te112" branching_ratio="0.0005" />
-    <decay type="ec/beta+" target="Xe116" branching_ratio="0.9715" />
-    <decay type="ec/beta+,p" target="I115" branching_ratio="0.028" />
+    <decay type="ec/beta+,alpha" target="He4" branching_ratio="0.0005" />
+    <decay type="ec/beta+" target="He4" branching_ratio="0.9715" />
+    <decay type="ec/beta+,p" target="He4" branching_ratio="0.028" />
   </nuclide>
   <nuclide name="Cs116_m1" half_life="3.85" decay_modes="3" decay_energy="7375615.767" reactions="0">
-    <decay type="ec/beta+,alpha" target="Te112" branching_ratio="8e-05" />
-    <decay type="ec/beta+" target="Xe116" branching_ratio="0.99482" />
-    <decay type="ec/beta+,p" target="I115" branching_ratio="0.0051" />
+    <decay type="ec/beta+,alpha" target="He4" branching_ratio="8e-05" />
+    <decay type="ec/beta+" target="He4" branching_ratio="0.99482" />
+    <decay type="ec/beta+,p" target="He4" branching_ratio="0.0051" />
   </nuclide>
   <nuclide name="Cs117" half_life="8.4" decay_modes="1" decay_energy="5128164.0" reactions="0">
-    <decay type="ec/beta+" target="Xe117" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Cs117_m1" half_life="6.5" decay_modes="1" decay_energy="5228164.0" reactions="0">
-    <decay type="ec/beta+" target="Xe117" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Cs118" half_life="14.0" decay_modes="3" decay_energy="6445345.9407" reactions="0">
-    <decay type="ec/beta+,alpha" target="Te114" branching_ratio="2.4e-05" />
-    <decay type="ec/beta+" target="Xe118" branching_ratio="0.999576" />
-    <decay type="ec/beta+,p" target="I117" branching_ratio="0.0004" />
+    <decay type="ec/beta+,alpha" target="He4" branching_ratio="2.4e-05" />
+    <decay type="ec/beta+" target="He4" branching_ratio="0.999576" />
+    <decay type="ec/beta+,p" target="He4" branching_ratio="0.0004" />
   </nuclide>
   <nuclide name="Cs118_m1" half_life="17.0" decay_modes="3" decay_energy="6445345.9407" reactions="0">
-    <decay type="ec/beta+,alpha" target="Te114" branching_ratio="2.4e-05" />
-    <decay type="ec/beta+" target="Xe118" branching_ratio="0.999576" />
-    <decay type="ec/beta+,p" target="I117" branching_ratio="0.0004" />
+    <decay type="ec/beta+,alpha" target="He4" branching_ratio="2.4e-05" />
+    <decay type="ec/beta+" target="He4" branching_ratio="0.999576" />
+    <decay type="ec/beta+,p" target="He4" branching_ratio="0.0004" />
   </nuclide>
   <nuclide name="Cs119" half_life="43.0" decay_modes="1" decay_energy="4326240.0" reactions="0">
-    <decay type="ec/beta+" target="Xe119" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Cs119_m1" half_life="30.4" decay_modes="1" decay_energy="4326000.0" reactions="0">
-    <decay type="ec/beta+" target="Xe119" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Cs120" half_life="61.3" decay_modes="3" decay_energy="5522522.4930588" reactions="0">
-    <decay type="ec/beta+,alpha" target="Te116" branching_ratio="2e-07" />
-    <decay type="ec/beta+" target="Xe120" branching_ratio="0.9999997" />
-    <decay type="ec/beta+,p" target="I119" branching_ratio="9.999999994736442e-08" />
+    <decay type="ec/beta+,alpha" target="He4" branching_ratio="2e-07" />
+    <decay type="ec/beta+" target="He4" branching_ratio="0.9999997" />
+    <decay type="ec/beta+,p" target="He4" branching_ratio="9.999999994736442e-08" />
   </nuclide>
   <nuclide name="Cs120_m1" half_life="57.0" decay_modes="1" decay_energy="5522666.0" reactions="0">
-    <decay type="ec/beta+" target="Xe120" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Cs121" half_life="155.0" decay_modes="1" decay_energy="2893053.0" reactions="0">
-    <decay type="ec/beta+" target="Xe121" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Cs121_m1" half_life="122.0" decay_modes="2" decay_energy="3022195.0" reactions="0">
-    <decay type="ec/beta+" target="Xe121" branching_ratio="0.83" />
-    <decay type="IT" target="Cs121" branching_ratio="0.17" />
+    <decay type="ec/beta+" target="He4" branching_ratio="0.83" />
+    <decay type="IT" target="He4" branching_ratio="0.17" />
   </nuclide>
   <nuclide name="Cs122" half_life="21.18" decay_modes="1" decay_energy="3927813.0" reactions="0">
-    <decay type="ec/beta+" target="Xe122" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Cs122_m1" half_life="0.36" decay_modes="1" decay_energy="127100.0" reactions="0">
-    <decay type="IT" target="Cs122" branching_ratio="1.0" />
+    <decay type="IT" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Cs122_m2" half_life="222.0" decay_modes="1" decay_energy="4901920.0" reactions="0">
-    <decay type="ec/beta+" target="Xe122" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Cs123" half_life="352.8" decay_modes="1" decay_energy="2073808.4" reactions="0">
-    <decay type="ec/beta+" target="Xe123" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Cs123_m1" half_life="1.64" decay_modes="1" decay_energy="158251.82" reactions="0">
-    <decay type="IT" target="Cs123" branching_ratio="1.0" />
+    <decay type="IT" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Cs124" half_life="30.8" decay_modes="1" decay_energy="3282092.0" reactions="0">
-    <decay type="ec/beta+" target="Xe124" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Cs124_m1" half_life="6.3" decay_modes="1" decay_energy="462600.0" reactions="0">
-    <decay type="IT" target="Cs124" branching_ratio="1.0" />
+    <decay type="IT" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Cs125" half_life="2802.0" decay_modes="1" decay_energy="1107470.4" reactions="0">
-    <decay type="ec/beta+" target="Xe125" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Cs125_m1" half_life="0.0009" decay_modes="1" decay_energy="266100.0" reactions="0">
-    <decay type="IT" target="Cs125" branching_ratio="1.0" />
+    <decay type="IT" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Cs126" half_life="98.4" decay_modes="1" decay_energy="2471372.0" reactions="0">
-    <decay type="ec/beta+" target="Xe126" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Cs127" half_life="22500.0" decay_modes="1" decay_energy="459835.81999999995" reactions="0">
-    <decay type="ec/beta+" target="Xe127" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Cs128" half_life="217.2" decay_modes="1" decay_energy="1769378.2000000002" reactions="0">
-    <decay type="ec/beta+" target="Xe128" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Cs129" half_life="115416.0" decay_modes="1" decay_energy="297233.89" reactions="0">
-    <decay type="ec/beta+" target="Xe129" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Cs130" half_life="1752.6" decay_modes="2" decay_energy="889978.1000000001" reactions="0">
-    <decay type="ec/beta+" target="Xe130" branching_ratio="0.984" />
-    <decay type="beta-" target="Ba130" branching_ratio="0.016" />
+    <decay type="ec/beta+" target="He4" branching_ratio="0.984" />
+    <decay type="beta-" target="He4" branching_ratio="0.016" />
   </nuclide>
   <nuclide name="Cs130_m1" half_life="207.6" decay_modes="2" decay_energy="159430.52000000002" reactions="0">
-    <decay type="ec/beta+" target="Xe130" branching_ratio="0.0016" />
-    <decay type="IT" target="Cs130" branching_ratio="0.9984" />
+    <decay type="ec/beta+" target="He4" branching_ratio="0.0016" />
+    <decay type="IT" target="He4" branching_ratio="0.9984" />
   </nuclide>
   <nuclide name="Cs131" half_life="837129.6" decay_modes="1" decay_energy="29638.797000000002" reactions="0">
-    <decay type="ec/beta+" target="Xe131" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Cs132" half_life="559872.0" decay_modes="2" decay_energy="728425.67" reactions="0">
-    <decay type="ec/beta+" target="Xe132" branching_ratio="0.9813" />
-    <decay type="beta-" target="Ba132" branching_ratio="0.0187" />
+    <decay type="ec/beta+" target="He4" branching_ratio="0.9813" />
+    <decay type="beta-" target="He4" branching_ratio="0.0187" />
   </nuclide>
   <nuclide name="Cs133" reactions="6">
-    <reaction type="(n,2n)" Q="-8987000.0" target="Cs132" />
-    <reaction type="(n,3n)" Q="-16155000.0" target="Cs131" />
-    <reaction type="(n,p)" Q="0.0" target="Xe133" />
-    <reaction type="(n,a)" Q="0.0" target="I130" />
-    <reaction type="(n,gamma)" Q="6891000.0" target="Cs134" branching_ratio="0.907" />
-    <reaction type="(n,gamma)" Q="6891000.0" target="Cs134_m1" branching_ratio="0.093" />
+    <reaction type="(n,2n)" Q="-8987000.0" target="He4" />
+    <reaction type="(n,3n)" Q="-16155000.0" target="He4" />
+    <reaction type="(n,p)" Q="0.0" target="He4" />
+    <reaction type="(n,a)" Q="0.0" target="He4" />
+    <reaction type="(n,gamma)" Q="6891000.0" target="He4" branching_ratio="0.907" />
+    <reaction type="(n,gamma)" Q="6891000.0" target="He4" branching_ratio="0.093" />
   </nuclide>
   <nuclide name="Cs134" half_life="65172760.0" decay_modes="2" decay_energy="1718501.4" reactions="6">
-    <decay type="beta-" target="Ba134" branching_ratio="0.999997" />
-    <decay type="ec/beta+" target="Xe134" branching_ratio="3e-06" />
-    <reaction type="(n,2n)" Q="-6896100.0" target="Cs133" />
-    <reaction type="(n,3n)" Q="-15886200.0" target="Cs132" />
-    <reaction type="(n,p)" Q="1998460.0" target="Xe134" />
-    <reaction type="(n,a)" Q="6196200.0" target="I131" />
-    <reaction type="(n,gamma)" Q="8827390.0" target="Cs135" branching_ratio="0.996" />
-    <reaction type="(n,gamma)" Q="8827390.0" target="Cs135_m1" branching_ratio="0.004" />
+    <decay type="beta-" target="He4" branching_ratio="0.999997" />
+    <decay type="ec/beta+" target="He4" branching_ratio="3e-06" />
+    <reaction type="(n,2n)" Q="-6896100.0" target="He4" />
+    <reaction type="(n,3n)" Q="-15886200.0" target="He4" />
+    <reaction type="(n,p)" Q="1998460.0" target="He4" />
+    <reaction type="(n,a)" Q="6196200.0" target="He4" />
+    <reaction type="(n,gamma)" Q="8827390.0" target="He4" branching_ratio="0.996" />
+    <reaction type="(n,gamma)" Q="8827390.0" target="He4" branching_ratio="0.004" />
   </nuclide>
   <nuclide name="Cs134_m1" half_life="10483.2" decay_modes="1" decay_energy="134096.56" reactions="0">
-    <decay type="IT" target="Cs134" branching_ratio="1.0" />
+    <decay type="IT" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Cs135" half_life="72582500000000.0" decay_modes="1" decay_energy="75700.0" reactions="6">
-    <decay type="beta-" target="Ba135" branching_ratio="1.0" />
-    <reaction type="(n,2n)" Q="-8832090.0" target="Cs134" />
-    <reaction type="(n,3n)" Q="-15728200.0" target="Cs133" />
-    <reaction type="(n,p)" Q="-376530.0" target="Xe135" />
-    <reaction type="(n,a)" Q="3695200.0" target="I132" />
-    <reaction type="(n,gamma)" Q="6764390.0" target="Cs136" branching_ratio="0.984" />
-    <reaction type="(n,gamma)" Q="6764390.0" target="Cs136_m1" branching_ratio="0.016" />
+    <decay type="beta-" target="He4" branching_ratio="1.0" />
+    <reaction type="(n,2n)" Q="-8832090.0" target="He4" />
+    <reaction type="(n,3n)" Q="-15728200.0" target="He4" />
+    <reaction type="(n,p)" Q="-376530.0" target="He4" />
+    <reaction type="(n,a)" Q="3695200.0" target="He4" />
+    <reaction type="(n,gamma)" Q="6764390.0" target="He4" branching_ratio="0.984" />
+    <reaction type="(n,gamma)" Q="6764390.0" target="He4" branching_ratio="0.016" />
   </nuclide>
   <nuclide name="Cs135_m1" half_life="3180.0" decay_modes="1" decay_energy="1633299.89" reactions="0">
-    <decay type="IT" target="Cs135" branching_ratio="1.0" />
+    <decay type="IT" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Cs136" half_life="1137024.0" decay_modes="2" decay_energy="2050675.7" reactions="5">
-    <decay type="beta-" target="Ba136" branching_ratio="0.889256" />
-    <decay type="beta-" target="Ba136_m1" branching_ratio="0.11074399999999995" />
-    <reaction type="(n,2n)" Q="-6769100.0" target="Cs135" />
-    <reaction type="(n,3n)" Q="-15601200.0" target="Cs134" />
-    <reaction type="(n,gamma)" Q="8273390.0" target="Cs137" />
-    <reaction type="(n,p)" Q="849462.0" target="Xe136" />
-    <reaction type="(n,a)" Q="5198200.0" target="I133" />
+    <decay type="beta-" target="He4" branching_ratio="0.889256" />
+    <decay type="beta-" target="He4" branching_ratio="0.11074399999999995" />
+    <reaction type="(n,2n)" Q="-6769100.0" target="He4" />
+    <reaction type="(n,3n)" Q="-15601200.0" target="He4" />
+    <reaction type="(n,gamma)" Q="8273390.0" target="He4" />
+    <reaction type="(n,p)" Q="849462.0" target="He4" />
+    <reaction type="(n,a)" Q="5198200.0" target="He4" />
   </nuclide>
   <nuclide name="Cs136_m1" half_life="19.0" decay_modes="2" decay_energy="874400.0" reactions="0">
-    <decay type="beta-" target="Ba136" branching_ratio="0.5" />
-    <decay type="IT" target="Cs136" branching_ratio="0.5" />
+    <decay type="beta-" target="He4" branching_ratio="0.5" />
+    <decay type="IT" target="He4" branching_ratio="0.5" />
   </nuclide>
   <nuclide name="Cs137" half_life="949252600.0" decay_modes="2" decay_energy="179447.6443" reactions="6">
-    <decay type="beta-" target="Ba137" branching_ratio="0.05300549" />
-    <decay type="beta-" target="Ba137_m1" branching_ratio="0.94699451" />
-    <reaction type="(n,2n)" Q="-8278100.0" target="Cs136" />
-    <reaction type="(n,3n)" Q="-15047200.0" target="Cs135" />
-    <reaction type="(n,p)" Q="-3562520.0" target="Xe137" />
-    <reaction type="(n,a)" Q="3064210.0" target="I134" />
-    <reaction type="(n,gamma)" Q="4281390.0" target="Cs138" branching_ratio="0.9021" />
-    <reaction type="(n,gamma)" Q="4281390.0" target="Cs138_m1" branching_ratio="0.0979" />
+    <decay type="beta-" target="He4" branching_ratio="0.05300549" />
+    <decay type="beta-" target="He4" branching_ratio="0.94699451" />
+    <reaction type="(n,2n)" Q="-8278100.0" target="He4" />
+    <reaction type="(n,3n)" Q="-15047200.0" target="He4" />
+    <reaction type="(n,p)" Q="-3562520.0" target="He4" />
+    <reaction type="(n,a)" Q="3064210.0" target="He4" />
+    <reaction type="(n,gamma)" Q="4281390.0" target="He4" branching_ratio="0.9021" />
+    <reaction type="(n,gamma)" Q="4281390.0" target="He4" branching_ratio="0.0979" />
   </nuclide>
   <nuclide name="Cs138" half_life="2004.6" decay_modes="1" decay_energy="3605192.0" reactions="0">
-    <decay type="beta-" target="Ba138" branching_ratio="1.0" />
+    <decay type="beta-" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Cs138_m1" half_life="174.6" decay_modes="2" decay_energy="738559.0" reactions="0">
-    <decay type="beta-" target="Ba138" branching_ratio="0.19" />
-    <decay type="IT" target="Cs138" branching_ratio="0.81" />
+    <decay type="beta-" target="He4" branching_ratio="0.19" />
+    <decay type="IT" target="He4" branching_ratio="0.81" />
   </nuclide>
   <nuclide name="Cs139" half_life="556.2" decay_modes="1" decay_energy="1967493.4" reactions="0">
-    <decay type="beta-" target="Ba139" branching_ratio="1.0" />
+    <decay type="beta-" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Cs140" half_life="63.7" decay_modes="1" decay_energy="3757688.0" reactions="0">
-    <decay type="beta-" target="Ba140" branching_ratio="1.0" />
+    <decay type="beta-" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Cs141" half_life="24.84" decay_modes="2" decay_energy="3198415.10657" reactions="0">
-    <decay type="beta-" target="Ba141" branching_ratio="0.99965" />
-    <decay type="beta-,n" target="Ba140" branching_ratio="0.00035" />
+    <decay type="beta-" target="He4" branching_ratio="0.99965" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.00035" />
   </nuclide>
   <nuclide name="Cs142" half_life="1.684" decay_modes="2" decay_energy="3871089.202" reactions="0">
-    <decay type="beta-" target="Ba142" branching_ratio="0.9991" />
-    <decay type="beta-,n" target="Ba141" branching_ratio="0.0009" />
+    <decay type="beta-" target="He4" branching_ratio="0.9991" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.0009" />
   </nuclide>
   <nuclide name="Cs143" half_life="1.791" decay_modes="2" decay_energy="2822768.691" reactions="0">
-    <decay type="beta-" target="Ba143" branching_ratio="0.9836" />
-    <decay type="beta-,n" target="Ba142" branching_ratio="0.0164" />
+    <decay type="beta-" target="He4" branching_ratio="0.9836" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.0164" />
   </nuclide>
   <nuclide name="Cs144" half_life="0.994" decay_modes="2" decay_energy="6271622.094" reactions="0">
-    <decay type="beta-" target="Ba144" branching_ratio="0.9697" />
-    <decay type="beta-,n" target="Ba143" branching_ratio="0.0303" />
+    <decay type="beta-" target="He4" branching_ratio="0.9697" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.0303" />
   </nuclide>
   <nuclide name="Cs144_m1" half_life="1.0" decay_modes="1" decay_energy="5666666.0" reactions="0">
-    <decay type="beta-" target="Ba144" branching_ratio="1.0" />
+    <decay type="beta-" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Cs145" half_life="0.587" decay_modes="2" decay_energy="3233734.98" reactions="0">
-    <decay type="beta-" target="Ba145" branching_ratio="0.853" />
-    <decay type="beta-,n" target="Ba144" branching_ratio="0.147" />
+    <decay type="beta-" target="He4" branching_ratio="0.853" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.147" />
   </nuclide>
   <nuclide name="Cs146" half_life="0.321" decay_modes="2" decay_energy="6111551.44" reactions="0">
-    <decay type="beta-" target="Ba146" branching_ratio="0.858" />
-    <decay type="beta-,n" target="Ba145" branching_ratio="0.142" />
+    <decay type="beta-" target="He4" branching_ratio="0.858" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.142" />
   </nuclide>
   <nuclide name="Cs147" half_life="0.23" decay_modes="2" decay_energy="4715615.0" reactions="0">
-    <decay type="beta-" target="Ba147" branching_ratio="0.715" />
-    <decay type="beta-,n" target="Ba146" branching_ratio="0.285" />
+    <decay type="beta-" target="He4" branching_ratio="0.715" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.285" />
   </nuclide>
   <nuclide name="Cs148" half_life="0.146" decay_modes="3" decay_energy="5741168.61" reactions="0">
-    <decay type="beta-" target="Ba148" branching_ratio="0.78138" />
-    <decay type="beta-,n" target="Ba147" branching_ratio="0.2184474" />
-    <decay type="beta-,n,n" target="Ba146" branching_ratio="0.00017259999999996722" />
+    <decay type="beta-" target="He4" branching_ratio="0.78138" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.2184474" />
+    <decay type="beta-,n,n" target="He4" branching_ratio="0.00017259999999996722" />
   </nuclide>
   <nuclide name="Cs149" half_life="0.05" decay_modes="3" decay_energy="3877946.1" reactions="0">
-    <decay type="beta-" target="Ba149" branching_ratio="0.31155" />
-    <decay type="beta-,n" target="Ba148" branching_ratio="0.6884495" />
-    <decay type="beta-,n,n" target="Ba147" branching_ratio="4.999999999588667e-07" />
+    <decay type="beta-" target="He4" branching_ratio="0.31155" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.6884495" />
+    <decay type="beta-,n,n" target="He4" branching_ratio="4.999999999588667e-07" />
   </nuclide>
   <nuclide name="Cs150" half_life="0.05" decay_modes="3" decay_energy="3835198.5" reactions="0">
-    <decay type="beta-" target="Ba150" branching_ratio="0.15866" />
-    <decay type="beta-,n" target="Ba149" branching_ratio="0.8382308" />
-    <decay type="beta-,n,n" target="Ba148" branching_ratio="0.0031092" />
+    <decay type="beta-" target="He4" branching_ratio="0.15866" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.8382308" />
+    <decay type="beta-,n,n" target="He4" branching_ratio="0.0031092" />
   </nuclide>
   <nuclide name="Cs151" half_life="0.05" decay_modes="3" decay_energy="4293893.9" reactions="0">
-    <decay type="beta-" target="Ba151" branching_ratio="0.14079" />
-    <decay type="beta-,n" target="Ba150" branching_ratio="0.8586876" />
-    <decay type="beta-,n,n" target="Ba149" branching_ratio="0.0005224" />
+    <decay type="beta-" target="He4" branching_ratio="0.14079" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.8586876" />
+    <decay type="beta-,n,n" target="He4" branching_ratio="0.0005224" />
   </nuclide>
   <nuclide name="Ba114" half_life="0.43" decay_modes="3" decay_energy="5912133.1" reactions="0">
-    <decay type="ec/beta+,p" target="Xe113" branching_ratio="0.2" />
-    <decay type="ec/beta+" target="Cs114" branching_ratio="0.8" />
-    <decay type="alpha" target="Xe110" branching_ratio="0.0" />
+    <decay type="ec/beta+,p" target="He4" branching_ratio="0.2" />
+    <decay type="ec/beta+" target="He4" branching_ratio="0.8" />
+    <decay type="alpha" target="He4" branching_ratio="0.0" />
   </nuclide>
   <nuclide name="Ba115" half_life="0.45" decay_modes="2" decay_energy="7261016.0" reactions="0">
-    <decay type="ec/beta+,p" target="Xe114" branching_ratio="0.15" />
-    <decay type="ec/beta+" target="Cs115" branching_ratio="0.85" />
+    <decay type="ec/beta+,p" target="He4" branching_ratio="0.15" />
+    <decay type="ec/beta+" target="He4" branching_ratio="0.85" />
   </nuclide>
   <nuclide name="Ba116" half_life="1.3" decay_modes="2" decay_energy="4978910.0" reactions="0">
-    <decay type="ec/beta+" target="Cs116" branching_ratio="0.97" />
-    <decay type="ec/beta+,p" target="Xe115" branching_ratio="0.03" />
+    <decay type="ec/beta+" target="He4" branching_ratio="0.97" />
+    <decay type="ec/beta+,p" target="He4" branching_ratio="0.03" />
   </nuclide>
   <nuclide name="Ba117" half_life="1.75" decay_modes="1" decay_energy="6023558.0" reactions="0">
-    <decay type="ec/beta+" target="Cs117" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Ba118" half_life="5.5" decay_modes="1" decay_energy="4024666.0" reactions="0">
-    <decay type="ec/beta+" target="Cs118" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Ba119" half_life="5.4" decay_modes="2" decay_energy="5019982.0" reactions="0">
-    <decay type="ec/beta+" target="Cs119" branching_ratio="0.75" />
-    <decay type="ec/beta+,p" target="Xe118" branching_ratio="0.25" />
+    <decay type="ec/beta+" target="He4" branching_ratio="0.75" />
+    <decay type="ec/beta+,p" target="He4" branching_ratio="0.25" />
   </nuclide>
   <nuclide name="Ba120" half_life="24.0" decay_modes="1" decay_energy="3333334.0" reactions="0">
-    <decay type="ec/beta+" target="Cs120" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Ba121" half_life="29.7" decay_modes="1" decay_energy="4238478.0" reactions="0">
-    <decay type="ec/beta+" target="Cs121" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Ba122" half_life="117.0" decay_modes="1" decay_energy="2355434.0" reactions="0">
-    <decay type="ec/beta+" target="Cs122" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Ba123" half_life="162.0" decay_modes="1" decay_energy="3592462.0" reactions="0">
-    <decay type="ec/beta+" target="Cs123" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Ba124" half_life="660.0" decay_modes="1" decay_energy="869492.8999999999" reactions="0">
-    <decay type="ec/beta+" target="Cs124" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Ba125" half_life="210.0" decay_modes="1" decay_energy="2946642.0" reactions="0">
-    <decay type="ec/beta+" target="Cs125" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Ba126" half_life="6000.0" decay_modes="1" decay_energy="588296.56" reactions="0">
-    <decay type="ec/beta+" target="Cs126" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Ba127" half_life="762.0" decay_modes="1" decay_energy="1285463.7999999998" reactions="0">
-    <decay type="ec/beta+" target="Cs127" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Ba127_m1" half_life="1.9" decay_modes="1" decay_energy="80300.0" reactions="0">
-    <decay type="IT" target="Ba127" branching_ratio="1.0" />
+    <decay type="IT" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Ba128" half_life="209952.0" decay_modes="1" decay_energy="74562.049" reactions="0">
-    <decay type="ec/beta+" target="Cs128" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Ba129" half_life="8028.0" decay_modes="1" decay_energy="478823.1" reactions="0">
-    <decay type="ec/beta+" target="Cs129" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Ba129_m1" half_life="7776.0" decay_modes="1" decay_energy="1623334.0" reactions="0">
-    <decay type="ec/beta+" target="Cs129" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Ba130" reactions="6">
-    <reaction type="(n,2n)" Q="-10263100.0" target="Ba129" />
-    <reaction type="(n,3n)" Q="-17973200.0" target="Ba128" />
-    <reaction type="(n,p)" Q="342466.0" target="Cs130" />
-    <reaction type="(n,a)" Q="6667200.0" target="Xe127" />
-    <reaction type="(n,gamma)" Q="7494390.0" target="Ba131" branching_ratio="0.8871" />
-    <reaction type="(n,gamma)" Q="7494390.0" target="Ba131_m1" branching_ratio="0.1129" />
+    <reaction type="(n,2n)" Q="-10263100.0" target="He4" />
+    <reaction type="(n,3n)" Q="-17973200.0" target="He4" />
+    <reaction type="(n,p)" Q="342466.0" target="He4" />
+    <reaction type="(n,a)" Q="6667200.0" target="He4" />
+    <reaction type="(n,gamma)" Q="7494390.0" target="He4" branching_ratio="0.8871" />
+    <reaction type="(n,gamma)" Q="7494390.0" target="He4" branching_ratio="0.1129" />
   </nuclide>
   <nuclide name="Ba130_m1" half_life="0.0094" decay_modes="1" decay_energy="2475100.0" reactions="0">
-    <decay type="IT" target="Ba130" branching_ratio="1.0" />
+    <decay type="IT" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Ba131" half_life="993600.0" decay_modes="1" decay_energy="535327.38" reactions="0">
-    <decay type="ec/beta+" target="Cs131" branching_ratio="1.0" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Ba131_m1" half_life="876.0" decay_modes="1" decay_energy="190659.39" reactions="0">
-    <decay type="IT" target="Ba131" branching_ratio="1.0" />
+    <decay type="IT" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Ba132" reactions="6">
-    <reaction type="(n,2n)" Q="-9803100.0" target="Ba131" />
-    <reaction type="(n,3n)" Q="-17302200.0" target="Ba130" />
-    <reaction type="(n,p)" Q="-495538.0" target="Cs132" />
-    <reaction type="(n,a)" Q="5898700.0" target="Xe129" />
-    <reaction type="(n,gamma)" Q="7187390.0" target="Ba133" branching_ratio="0.9175" />
-    <reaction type="(n,gamma)" Q="7187390.0" target="Ba133_m1" branching_ratio="0.0825" />
+    <reaction type="(n,2n)" Q="-9803100.0" target="He4" />
+    <reaction type="(n,3n)" Q="-17302200.0" target="He4" />
+    <reaction type="(n,p)" Q="-495538.0" target="He4" />
+    <reaction type="(n,a)" Q="5898700.0" target="He4" />
+    <reaction type="(n,gamma)" Q="7187390.0" target="He4" branching_ratio="0.9175" />
+    <reaction type="(n,gamma)" Q="7187390.0" target="He4" branching_ratio="0.0825" />
   </nuclide>
   <nuclide name="Ba133" half_life="331862400.0" decay_modes="1" decay_energy="457202.61" reactions="5">
-    <decay type="ec/beta+" target="Cs133" branching_ratio="1.0" />
-    <reaction type="(n,2n)" Q="-7189000.0" target="Ba132" />
-    <reaction type="(n,3n)" Q="-17007000.0" target="Ba131" />
-    <reaction type="(n,gamma)" Q="9468000.0" target="Ba134" />
-    <reaction type="(n,p)" Q="0.0" target="Cs133" />
-    <reaction type="(n,a)" Q="0.0" target="Xe130" />
+    <decay type="ec/beta+" target="He4" branching_ratio="1.0" />
+    <reaction type="(n,2n)" Q="-7189000.0" target="He4" />
+    <reaction type="(n,3n)" Q="-17007000.0" target="He4" />
+    <reaction type="(n,gamma)" Q="9468000.0" target="He4" />
+    <reaction type="(n,p)" Q="0.0" target="He4" />
+    <reaction type="(n,a)" Q="0.0" target="He4" />
   </nuclide>
   <nuclide name="Ba133_m1" half_life="140040.0" decay_modes="2" decay_energy="286432.47" reactions="0">
-    <decay type="ec/beta+" target="Cs133" branching_ratio="9.6e-05" />
-    <decay type="IT" target="Ba133" branching_ratio="0.999904" />
+    <decay type="ec/beta+" target="He4" branching_ratio="9.6e-05" />
+    <decay type="IT" target="He4" branching_ratio="0.999904" />
   </nuclide>
   <nuclide name="Ba134" reactions="6">
-    <reaction type="(n,2n)" Q="-9475100.0" target="Ba133" />
-    <reaction type="(n,3n)" Q="-16667200.0" target="Ba132" />
-    <reaction type="(n,p)" Q="-1276540.0" target="Cs134" />
-    <reaction type="(n,a)" Q="5107200.0" target="Xe131" />
-    <reaction type="(n,gamma)" Q="6973390.0" target="Ba135" branching_ratio="0.9263" />
-    <reaction type="(n,gamma)" Q="6973390.0" target="Ba135_m1" branching_ratio="0.0737" />
+    <reaction type="(n,2n)" Q="-9475100.0" target="He4" />
+    <reaction type="(n,3n)" Q="-16667200.0" target="He4" />
+    <reaction type="(n,p)" Q="-1276540.0" target="He4" />
+    <reaction type="(n,a)" Q="5107200.0" target="He4" />
+    <reaction type="(n,gamma)" Q="6973390.0" target="He4" branching_ratio="0.9263" />
+    <reaction type="(n,gamma)" Q="6973390.0" target="He4" branching_ratio="0.0737" />
   </nuclide>
   <nuclide name="Ba135" reactions="6">
-    <reaction type="(n,2n)" Q="-6978100.0" target="Ba134" />
-    <reaction type="(n,3n)" Q="-16453200.0" target="Ba133" />
-    <reaction type="(n,p)" Q="577454.0" target="Cs135" />
-    <reaction type="(n,a)" Q="7070190.0" target="Xe132" />
-    <reaction type="(n,gamma)" Q="9107390.0" target="Ba136" branching_ratio="0.9978" />
-    <reaction type="(n,gamma)" Q="9107390.0" target="Ba136_m1" branching_ratio="0.0022" />
+    <reaction type="(n,2n)" Q="-6978100.0" target="He4" />
+    <reaction type="(n,3n)" Q="-16453200.0" target="He4" />
+    <reaction type="(n,p)" Q="577454.0" target="He4" />
+    <reaction type="(n,a)" Q="7070190.0" target="He4" />
+    <reaction type="(n,gamma)" Q="9107390.0" target="He4" branching_ratio="0.9978" />
+    <reaction type="(n,gamma)" Q="9107390.0" target="He4" branching_ratio="0.0022" />
   </nuclide>
   <nuclide name="Ba135_m1" half_life="103320.0" decay_modes="1" decay_energy="266418.32" reactions="0">
-    <decay type="IT" target="Ba135" branching_ratio="1.0" />
+    <decay type="IT" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Ba136" reactions="6">
-    <reaction type="(n,2n)" Q="-9112090.0" target="Ba135" />
-    <reaction type="(n,3n)" Q="-16090200.0" target="Ba134" />
-    <reaction type="(n,p)" Q="-1765540.0" target="Cs136" />
-    <reaction type="(n,a)" Q="4410200.0" target="Xe133" />
-    <reaction type="(n,gamma)" Q="6898390.0" target="Ba137" branching_ratio="0.9731" />
-    <reaction type="(n,gamma)" Q="6898390.0" target="Ba137_m1" branching_ratio="0.0269" />
+    <reaction type="(n,2n)" Q="-9112090.0" target="He4" />
+    <reaction type="(n,3n)" Q="-16090200.0" target="He4" />
+    <reaction type="(n,p)" Q="-1765540.0" target="He4" />
+    <reaction type="(n,a)" Q="4410200.0" target="He4" />
+    <reaction type="(n,gamma)" Q="6898390.0" target="He4" branching_ratio="0.9731" />
+    <reaction type="(n,gamma)" Q="6898390.0" target="He4" branching_ratio="0.0269" />
   </nuclide>
   <nuclide name="Ba136_m1" half_life="0.3084" decay_modes="1" decay_energy="2029530.1" reactions="0">
-    <decay type="IT" target="Ba136" branching_ratio="1.0" />
+    <decay type="IT" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Ba137" reactions="5">
-    <reaction type="(n,2n)" Q="-6903090.0" target="Ba136" />
-    <reaction type="(n,3n)" Q="-16015200.0" target="Ba135" />
-    <reaction type="(n,gamma)" Q="8611390.0" target="Ba138" />
-    <reaction type="(n,p)" Q="-390530.0" target="Cs137" />
-    <reaction type="(n,a)" Q="6046200.0" target="Xe134" />
+    <reaction type="(n,2n)" Q="-6903090.0" target="He4" />
+    <reaction type="(n,3n)" Q="-16015200.0" target="He4" />
+    <reaction type="(n,gamma)" Q="8611390.0" target="He4" />
+    <reaction type="(n,p)" Q="-390530.0" target="He4" />
+    <reaction type="(n,a)" Q="6046200.0" target="He4" />
   </nuclide>
   <nuclide name="Ba137_m1" half_life="153.12" decay_modes="1" decay_energy="661396.64" reactions="0">
-    <decay type="IT" target="Ba137" branching_ratio="1.0" />
+    <decay type="IT" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Ba138" reactions="5">
-    <reaction type="(n,2n)" Q="-8611400.0" target="Ba137" />
-    <reaction type="(n,3n)" Q="-15511000.0" target="Ba136" />
-    <reaction type="(n,gamma)" Q="4723400.0" target="Ba139" />
-    <reaction type="(n,p)" Q="-4593200.0" target="Cs138" />
-    <reaction type="(n,a)" Q="3880200.0" target="Xe135" />
+    <reaction type="(n,2n)" Q="-8611400.0" target="He4" />
+    <reaction type="(n,3n)" Q="-15511000.0" target="He4" />
+    <reaction type="(n,gamma)" Q="4723400.0" target="He4" />
+    <reaction type="(n,p)" Q="-4593200.0" target="He4" />
+    <reaction type="(n,a)" Q="3880200.0" target="He4" />
   </nuclide>
   <nuclide name="Ba139" half_life="4983.6" decay_modes="1" decay_energy="946443.81" reactions="0">
-    <decay type="beta-" target="La139" branching_ratio="1.0" />
+    <decay type="beta-" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Ba140" half_life="1101833.0" decay_modes="1" decay_energy="500411.3" reactions="5">
-    <decay type="beta-" target="La140" branching_ratio="1.0" />
-    <reaction type="(n,2n)" Q="-6241100.0" target="Ba139" />
-    <reaction type="(n,3n)" Q="-10959000.0" target="Ba138" />
-    <reaction type="(n,gamma)" Q="4825200.0" target="Ba141" />
-    <reaction type="(n,p)" Q="-5260500.0" target="Cs140" />
-    <reaction type="(n,a)" Q="4574900.0" target="Xe137" />
+    <decay type="beta-" target="He4" branching_ratio="1.0" />
+    <reaction type="(n,2n)" Q="-6241100.0" target="He4" />
+    <reaction type="(n,3n)" Q="-10959000.0" target="He4" />
+    <reaction type="(n,gamma)" Q="4825200.0" target="He4" />
+    <reaction type="(n,p)" Q="-5260500.0" target="He4" />
+    <reaction type="(n,a)" Q="4574900.0" target="He4" />
   </nuclide>
   <nuclide name="Ba141" half_life="1096.2" decay_modes="1" decay_energy="1863290.0" reactions="0">
-    <decay type="beta-" target="La141" branching_ratio="1.0" />
+    <decay type="beta-" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Ba142" half_life="636.0" decay_modes="1" decay_energy="1442459.6" reactions="0">
-    <decay type="beta-" target="La142" branching_ratio="1.0" />
+    <decay type="beta-" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Ba143" half_life="14.5" decay_modes="1" decay_energy="2524975.0" reactions="0">
-    <decay type="beta-" target="La143" branching_ratio="1.0" />
+    <decay type="beta-" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Ba144" half_life="11.5" decay_modes="1" decay_energy="1687320.3" reactions="0">
-    <decay type="beta-" target="La144" branching_ratio="1.0" />
+    <decay type="beta-" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Ba145" half_life="4.31" decay_modes="1" decay_energy="3289368.0" reactions="0">
-    <decay type="beta-" target="La145" branching_ratio="1.0" />
+    <decay type="beta-" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Ba146" half_life="2.22" decay_modes="1" decay_energy="2183755.4" reactions="0">
-    <decay type="beta-" target="La146" branching_ratio="1.0" />
+    <decay type="beta-" target="He4" branching_ratio="1.0" />
   </nuclide>
   <nuclide name="Ba147" half_life="0.894" decay_modes="2" decay_energy="3042660.83201" reactions="0">
-    <decay type="beta-" target="La147" branching_ratio="0.9994" />
-    <decay type="beta-,n" target="La146" branching_ratio="0.0006" />
+    <decay type="beta-" target="He4" branching_ratio="0.9994" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.0006" />
   </nuclide>
   <nuclide name="Ba148" half_life="0.612" decay_modes="2" decay_energy="2774950.502" reactions="0">
-    <decay type="beta-" target="La148" branching_ratio="0.996" />
-    <decay type="beta-,n" target="La147" branching_ratio="0.004" />
+    <decay type="beta-" target="He4" branching_ratio="0.996" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.004" />
   </nuclide>
   <nuclide name="Ba149" half_life="0.344" decay_modes="2" decay_energy="4000700.8145" reactions="0">
-    <decay type="beta-" target="La149" branching_ratio="0.9957" />
-    <decay type="beta-,n" target="La148" branching_ratio="0.0043" />
+    <decay type="beta-" target="He4" branching_ratio="0.9957" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.0043" />
   </nuclide>
   <nuclide name="Ba150" half_life="0.3" decay_modes="2" decay_energy="3566295.583" reactions="0">
-    <decay type="beta-" target="La150" branching_ratio="0.99" />
-    <decay type="beta-,n" target="La149" branching_ratio="0.01" />
+    <decay type="beta-" target="He4" branching_ratio="0.99" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.01" />
   </nuclide>
   <nuclide name="Ba151" half_life="0.259" decay_modes="2" decay_energy="5345922.131" reactions="0">
-    <decay type="beta-" target="La151" branching_ratio="0.966588" />
-    <decay type="beta-,n" target="La150" branching_ratio="0.033412" />
+    <decay type="beta-" target="He4" branching_ratio="0.966588" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.033412" />
   </nuclide>
   <nuclide name="Ba152" half_life="0.228" decay_modes="2" decay_energy="4113095.77" reactions="0">
-    <decay type="beta-" target="La152" branching_ratio="0.949854" />
-    <decay type="beta-,n" target="La151" branching_ratio="0.050146" />
+    <decay type="beta-" target="He4" branching_ratio="0.949854" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.050146" />
   </nuclide>
   <nuclide name="Ba153" half_life="0.158" decay_modes="3" decay_energy="5463667.39" reactions="0">
-    <decay type="beta-" target="La153" branching_ratio="0.966356" />
-    <decay type="beta-,n" target="La152" branching_ratio="0.03364393" />
-    <decay type="beta-,n,n" target="La151" branching_ratio="7.000000001866624e-08" />
+    <decay type="beta-" target="He4" branching_ratio="0.966356" />
+    <decay type="beta-,n" target="He4" branching_ratio="0.03364393" />
+    <decay type="beta-,n,n" target="He4" branching_ratio="7.000000001866624e-08" />
   </nuclide>
   <nuclide name="La117" half_life="0.0235" decay_modes="2" decay_energy="1215902.5" reactions="0">
     <decay type="ec/beta+" target="Ba117" branching_ratio="0.061" />
