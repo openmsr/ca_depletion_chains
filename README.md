@@ -1,9 +1,10 @@
-#MSR depletion chain 
+# MSR depletion chain
 - `ENDF-B-VII.1_chain_msr.xml`
 - `ENDF-B-VIII.0_chain_msr.xml`
-ENDF-B Nuclear reaction, Neutron Induced Fission Product Yields and Decay Reaction libraries downloaded from :point_right: [nndc](https://www.nndc.bnl.gov/).
-.xml files generated using `create_chain.py` script, including `'(n,2n)', '(n,3n)', '(n,4n)', '(n,gamma)', '(n,p)', '(n,a)', '(n,t)','(n,na)'` nuclear reactions.
 
+ENDF-B Nuclear reaction, Neutron Induced Fission Product Yields and Decay Reaction libraries downloaded from :point_right: [nndc](https://www.nndc.bnl.gov/).
+
+The xml files are generated using `create_chain.py` script, including `'(n,2n)', '(n,3n)', '(n,4n)', '(n,gamma)', '(n,p)', '(n,a)', '(n,t)','(n,na)'` nuclear reactions.
 
 # Modified depletion chains  
 The following chains are retrieved from the OpenMC official depletion data library :point_right: [Openmc official data library](https://openmc.org/official-data-libraries/) and modified as stated below:
